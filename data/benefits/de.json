@@ -1,0 +1,1366 @@
+[
+  {
+    "authority": "Bundesagentur für Arbeit (Arbeitsagentur)",
+    "avg_value_eur_per_year": 14400,
+    "complexity": 4,
+    "complexity_hours_estimated": 2.0,
+    "country": "de",
+    "description_key": "benefit.de.alg1.description",
+    "eligibility_key": "benefit.de.alg1.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "alg1.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "alg1.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "alg1.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "steuer_id",
+        "label_key": "alg1.field.steuer_id",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "last_employer",
+        "label_key": "alg1.field.last_employer",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "last_day_worked",
+        "label_key": "alg1.field.last_day_worked",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "reason_for_unemployment",
+        "label_key": "alg1.field.reason",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_gross_last_12mo",
+        "label_key": "alg1.field.gross_last_12mo",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "krankenkasse_name",
+        "label_key": "alg1.field.krankenkasse",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "number_of_children",
+        "label_key": "alg1.field.children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "alg1.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "de:arbeitslosengeld",
+    "level": "country",
+    "official_url": "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld",
+    "one_liner_key": "benefit.de.alg1.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "arbeitslosengeld antrag",
+      "alg 1",
+      "arbeitsagentur arbeitslos",
+      "arbeitslos melden",
+      "anwartschaftszeit",
+      "arbeitslosengeld höhe",
+      "arbeitslosengeld online beantragen",
+      "sperrzeit arbeitslosengeld"
+    ],
+    "slug": "arbeitslosengeld",
+    "title_english": "Unemployment benefit (insurance-based)",
+    "title_native": "Arbeitslosengeld I"
+  },
+  {
+    "authority": "Studierendenwerk / BAföG-Amt der Hochschule",
+    "avg_value_eur_per_year": 11208,
+    "complexity": 4,
+    "complexity_hours_estimated": 3.5,
+    "country": "de",
+    "description_key": "benefit.de.bafoeg.description",
+    "eligibility_key": "benefit.de.bafoeg.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "bafoeg.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "bafoeg.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "bafoeg.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "hochschule_name",
+        "label_key": "bafoeg.field.hochschule",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "studienfach",
+        "label_key": "bafoeg.field.studienfach",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "semester_number",
+        "label_key": "bafoeg.field.semester",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "parents_combined_income",
+        "label_key": "bafoeg.field.parents_income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "own_income",
+        "label_key": "bafoeg.field.own_income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_rent",
+        "label_key": "bafoeg.field.rent",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "bafoeg.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "de:bafoeg",
+    "level": "country",
+    "official_url": "https://www.bafoeg-digital.de/",
+    "one_liner_key": "benefit.de.bafoeg.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "bafög antrag",
+      "bafög rechner",
+      "bafög 2026",
+      "bafög online",
+      "studierendenwerk bafög",
+      "elternunabhängiges bafög"
+    ],
+    "slug": "bafoeg",
+    "title_english": "Federal student aid (BAföG)",
+    "title_native": "BAföG"
+  },
+  {
+    "authority": "Jobcenter (kommunal / Bundesagentur für Arbeit)",
+    "avg_value_eur_per_year": 6756,
+    "complexity": 5,
+    "complexity_hours_estimated": 4.5,
+    "country": "de",
+    "description_key": "benefit.de.buergergeld.description",
+    "eligibility_key": "benefit.de.buergergeld.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "buergergeld.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "buergergeld.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "buergergeld.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "household_size",
+        "label_key": "buergergeld.field.household_size",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_rent_warm",
+        "label_key": "buergergeld.field.rent_warm",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_gross_income",
+        "label_key": "buergergeld.field.gross_income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "savings_eur",
+        "label_key": "buergergeld.field.savings",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "currently_employed",
+        "label_key": "buergergeld.field.employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "number_of_children",
+        "label_key": "buergergeld.field.children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "buergergeld.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "de:buergergeld",
+    "level": "country",
+    "official_url": "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/buergergeld",
+    "one_liner_key": "benefit.de.buergergeld.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "bürgergeld antrag",
+      "bürgergeld höhe 2026",
+      "bürgergeld berechnen",
+      "jobcenter antrag",
+      "regelbedarf bürgergeld",
+      "bürgergeld online beantragen"
+    ],
+    "slug": "buergergeld",
+    "title_english": "Citizen's allowance (Bürgergeld)",
+    "title_native": "Bürgergeld"
+  },
+  {
+    "authority": "Elterngeldstelle (Land/Kommune)",
+    "avg_value_eur_per_year": 14400,
+    "complexity": 4,
+    "complexity_hours_estimated": 2.5,
+    "country": "de",
+    "description_key": "benefit.de.elterngeld.description",
+    "eligibility_key": "benefit.de.elterngeld.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "elterngeld.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "elterngeld.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "elterngeld.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "child_dob",
+        "label_key": "elterngeld.field.child_dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "child_full_name",
+        "label_key": "elterngeld.field.child_full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "partner_full_name",
+        "label_key": "elterngeld.field.partner_full_name",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "elterngeld.help.monthly_net_pre_birth",
+        "key": "monthly_net_pre_birth",
+        "label_key": "elterngeld.field.monthly_net_pre_birth",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "elterngeld.help.planned_months",
+        "key": "planned_months",
+        "label_key": "elterngeld.field.planned_months",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "plus_or_basis",
+        "label_key": "elterngeld.field.plus_or_basis",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "partnermonate",
+        "label_key": "elterngeld.field.partnermonate",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "krankenkasse_name",
+        "label_key": "elterngeld.field.krankenkasse",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "elterngeld.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "de:elterngeld",
+    "level": "country",
+    "official_url": "https://www.bmfsfj.de/bmfsfj/themen/familie/familienleistungen/elterngeld",
+    "one_liner_key": "benefit.de.elterngeld.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "elterngeld antrag",
+      "elterngeld rechner 2026",
+      "elterngeld plus",
+      "basiselterngeld",
+      "elterngeldstelle berlin",
+      "elternzeit anmelden",
+      "elterngeld zuschuss",
+      "partnermonate elterngeld"
+    ],
+    "slug": "elterngeld",
+    "title_english": "Parental allowance",
+    "title_native": "Elterngeld"
+  },
+  {
+    "authority": "Familienkasse (Bundesagentur für Arbeit)",
+    "avg_value_eur_per_year": 3000,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.5,
+    "country": "de",
+    "description_key": "benefit.de.kindergeld.description",
+    "eligibility_key": "benefit.de.kindergeld.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "kindergeld.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "kindergeld.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "kindergeld.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "kindergeld.help.steuer_id",
+        "key": "steuer_id",
+        "label_key": "kindergeld.field.steuer_id",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "number_of_children",
+        "label_key": "kindergeld.field.children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "kindergeld.help.children_dobs",
+        "key": "children_dobs",
+        "label_key": "kindergeld.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "currently_employed",
+        "label_key": "kindergeld.field.employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "kindergeld.help.partner_kindergeld",
+        "key": "partner_kindergeld",
+        "label_key": "kindergeld.field.partner_kindergeld",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "kindergeld.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "de:kindergeld",
+    "level": "country",
+    "official_url": "https://www.arbeitsagentur.de/familie-und-kinder/kindergeld",
+    "one_liner_key": "benefit.de.kindergeld.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "kindergeld antrag",
+      "kindergeld 2026",
+      "kindergeld höhe",
+      "familienkasse antrag",
+      "kindergeld online beantragen",
+      "kindergeld nachzahlung",
+      "kindergeld auslandsstudium"
+    ],
+    "slug": "kindergeld",
+    "title_english": "Child benefit",
+    "title_native": "Kindergeld"
+  },
+  {
+    "authority": "Krankenkasse (gesetzliche)",
+    "avg_value_eur_per_year": 21600,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.5,
+    "country": "de",
+    "description_key": "benefit.de.krankengeld.description",
+    "eligibility_key": "benefit.de.krankengeld.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "krankengeld.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "krankengeld.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "krankengeld.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "krankenkasse_name",
+        "label_key": "krankengeld.field.krankenkasse",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "krankenkasse_member_id",
+        "label_key": "krankengeld.field.kvnr",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "krankengeld.help.first_day_au",
+        "key": "first_day_au",
+        "label_key": "krankengeld.field.first_day_au",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "krankengeld.help.diagnosis",
+        "key": "au_diagnosis",
+        "label_key": "krankengeld.field.diagnosis",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "treating_doctor",
+        "label_key": "krankengeld.field.doctor",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_gross_pre_au",
+        "label_key": "krankengeld.field.gross_pre_au",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "employer_name",
+        "label_key": "krankengeld.field.employer",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "krankengeld.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "de:krankengeld",
+    "level": "country",
+    "official_url": "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung/krankengeld",
+    "one_liner_key": "benefit.de.krankengeld.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "krankengeld antrag",
+      "krankengeld höhe",
+      "krankengeld rechner",
+      "krankengeld auszahlung",
+      "krankengeld nach 6 wochen",
+      "aussteuerung krankengeld",
+      "krankengeld selbstständige"
+    ],
+    "slug": "krankengeld",
+    "title_english": "Sickness benefit",
+    "title_native": "Krankengeld"
+  },
+  {
+    "authority": "Krankenkasse (gesetzliche)",
+    "avg_value_eur_per_year": 2730,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.0,
+    "country": "de",
+    "description_key": "benefit.de.mutterschaftsgeld.description",
+    "eligibility_key": "benefit.de.mutterschaftsgeld.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "de.mutterschaftsgeld.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "de.mutterschaftsgeld.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "de.mutterschaftsgeld.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "krankenkasse_name",
+        "label_key": "de.mutterschaftsgeld.field.krankenkasse",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "krankenkasse_member_id",
+        "label_key": "de.mutterschaftsgeld.field.kvnr",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "de.mutterschaftsgeld.help.due_date",
+        "key": "voraussichtlicher_entbindungstermin",
+        "label_key": "de.mutterschaftsgeld.field.due_date",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "de.mutterschaftsgeld.help.extended",
+        "key": "schutzfrist_extended",
+        "label_key": "de.mutterschaftsgeld.field.extended",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "employment_status",
+        "label_key": "de.mutterschaftsgeld.field.employment",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "employer_name",
+        "label_key": "de.mutterschaftsgeld.field.employer",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "de.mutterschaftsgeld.help.net_avg",
+        "key": "net_monthly_avg_3months",
+        "label_key": "de.mutterschaftsgeld.field.net_avg",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "de.mutterschaftsgeld.help.doctor_cert",
+        "key": "doctor_certificate_uploaded",
+        "label_key": "de.mutterschaftsgeld.field.doctor_cert",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "treating_doctor",
+        "label_key": "de.mutterschaftsgeld.field.doctor",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "de.mutterschaftsgeld.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "de:mutterschaftsgeld",
+    "level": "country",
+    "official_url": "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung/mutterschaftsgeld",
+    "one_liner_key": "benefit.de.mutterschaftsgeld.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "mutterschaftsgeld antrag",
+      "mutterschaftsgeld höhe",
+      "mutterschaftsgeld rechner",
+      "mutterschaftsgeld berechnen",
+      "mutterschaftsgeld arbeitgeberzuschuss",
+      "mutterschaftsgeld dauer",
+      "schutzfrist mutterschutz",
+      "mutterschaftsgeld aok",
+      "mutterschaftsgeld tk",
+      "mutterschaftsgeld 13 euro",
+      "mutterschaftsgeld bei minijob",
+      "mutterschaftsgeld selbständige"
+    ],
+    "slug": "mutterschaftsgeld",
+    "title_english": "Maternity benefit",
+    "title_native": "Mutterschaftsgeld"
+  },
+  {
+    "authority": "Pflegekasse (bei der Krankenkasse)",
+    "avg_value_eur_per_year": 7536,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.5,
+    "country": "de",
+    "description_key": "benefit.de.pflegegeld.description",
+    "eligibility_key": "benefit.de.pflegegeld.eligibility",
+    "form_fields": [
+      {
+        "help_key": "de.pflegegeld.help.full_name",
+        "key": "applicant_full_name",
+        "label_key": "de.pflegegeld.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "de.pflegegeld.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "de.pflegegeld.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "de.pflegegeld.help.pflegekasse",
+        "key": "pflegekasse_name",
+        "label_key": "de.pflegegeld.field.pflegekasse",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "krankenkasse_member_id",
+        "label_key": "de.pflegegeld.field.kvnr",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "de.pflegegeld.help.pflegegrad",
+        "key": "pflegegrad",
+        "label_key": "de.pflegegeld.field.pflegegrad",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "primary_diagnosis",
+        "label_key": "de.pflegegeld.field.diagnosis",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "de.pflegegeld.help.care_provider",
+        "key": "care_provider",
+        "label_key": "de.pflegegeld.field.care_provider",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "caregiver_name",
+        "label_key": "de.pflegegeld.field.caregiver",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "treating_doctor",
+        "label_key": "de.pflegegeld.field.doctor",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "de.pflegegeld.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "de:pflegegeld",
+    "level": "country",
+    "official_url": "https://www.bundesgesundheitsministerium.de/pflegegeld",
+    "one_liner_key": "benefit.de.pflegegeld.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "pflegegeld antrag",
+      "pflegegeld 2026",
+      "pflegegeld höhe",
+      "pflegegeld pflegegrad 2",
+      "pflegegeld pflegegrad 3",
+      "pflegegeld pflegegrad 4",
+      "pflegegeld pflegegrad 5",
+      "pflegegeld kombinationsleistung",
+      "pflegegeld bei pflegegrad",
+      "pflegegeld auszahlung",
+      "pflegegeld angehörige",
+      "pflegegeld vs pflegesachleistung"
+    ],
+    "slug": "pflegegeld",
+    "title_english": "Care allowance for family caregivers",
+    "title_native": "Pflegegeld"
+  },
+  {
+    "authority": "Pflegekasse (bei Ihrer Krankenkasse)",
+    "avg_value_eur_per_year": 2400,
+    "complexity": 5,
+    "complexity_hours_estimated": 5.0,
+    "country": "de",
+    "description_key": "benefit.de.pflegegrad.description",
+    "eligibility_key": "benefit.de.pflegegrad.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "pflegegrad.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "pflegegrad.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "pflegegrad.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "pflegegrad.help.krankenkasse_name",
+        "key": "krankenkasse_name",
+        "label_key": "pflegegrad.field.krankenkasse_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "pflegegrad.help.krankenkasse_member_id",
+        "key": "krankenkasse_member_id",
+        "label_key": "pflegegrad.field.krankenkasse_member_id",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "pflegegrad.help.self_assessment",
+        "key": "pflegegrad_self_assessment",
+        "label_key": "pflegegrad.field.self_assessment",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "care_at_home_or_facility",
+        "label_key": "pflegegrad.field.care_setting",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "pflegegrad.help.reasons_text",
+        "key": "reasons_text",
+        "label_key": "pflegegrad.field.reasons_text",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "contact_phone",
+        "label_key": "pflegegrad.field.contact_phone",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "pflegegrad.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "de:pflegegrad-antrag",
+    "level": "country",
+    "official_url": "https://www.bundesgesundheitsministerium.de/themen/pflege/online-ratgeber-pflege/leistungen-der-pflegeversicherung.html",
+    "one_liner_key": "benefit.de.pflegegrad.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "pflegegrad antrag",
+      "pflegegrad beantragen",
+      "pflegegutachten",
+      "mdk begutachtung",
+      "pflegegeld",
+      "pflegestufe",
+      "pflegeversicherung antrag",
+      "pflegegrad widerspruch"
+    ],
+    "slug": "pflegegrad-antrag",
+    "title_english": "Care-level application (Pflegegrad)",
+    "title_native": "Pflegegrad-Antrag"
+  },
+  {
+    "authority": "Kreis / kreisfreie Stadt — Sozialamt",
+    "avg_value_eur_per_year": 5000,
+    "complexity": 5,
+    "complexity_hours_estimated": 5.5,
+    "country": "de",
+    "description_key": "benefit.de.pflegewohngeld.description",
+    "eligibility_key": "benefit.de.pflegewohngeld.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "pflegewohngeld.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "pflegewohngeld.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "pflegewohngeld.help.address",
+        "key": "applicant_address",
+        "label_key": "pflegewohngeld.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "facility_name",
+        "label_key": "pflegewohngeld.field.facility_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "pflegewohngeld.help.monthly_facility_cost",
+        "key": "monthly_facility_cost",
+        "label_key": "pflegewohngeld.field.monthly_facility_cost",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "pflegewohngeld.help.pflegegrad",
+        "key": "pflegegrad",
+        "label_key": "pflegewohngeld.field.pflegegrad",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_pension_income",
+        "label_key": "pflegewohngeld.field.monthly_pension_income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "pflegewohngeld.help.assets_eur",
+        "key": "assets_eur",
+        "label_key": "pflegewohngeld.field.assets_eur",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "spouse_present",
+        "label_key": "pflegewohngeld.field.spouse_present",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "pflegewohngeld.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "de:pflegewohngeld-nrw",
+    "level": "state",
+    "official_url": "https://www.mags.nrw/pflege",
+    "one_liner_key": "benefit.de.pflegewohngeld.one_liner",
+    "regions": [
+      "nordrhein-westfalen"
+    ],
+    "related_keys": [],
+    "seo_keywords": [
+      "pflegewohngeld nrw",
+      "pflegewohngeld antrag",
+      "investitionskosten pflegeheim",
+      "apg nrw § 14",
+      "schonvermögen pflege",
+      "sozialamt pflegewohngeld",
+      "pflegewohngeld berechnen",
+      "stationäre pflege nrw"
+    ],
+    "slug": "pflegewohngeld-nrw",
+    "title_english": "Care-home investment-cost subsidy (NRW)",
+    "title_native": "Pflegewohngeld NRW"
+  },
+  {
+    "authority": "Versorgungsamt / Landesamt für soziale Dienste",
+    "avg_value_eur_per_year": 2500,
+    "complexity": 3,
+    "complexity_hours_estimated": 2.5,
+    "country": "de",
+    "description_key": "benefit.de.sb_ausweis.description",
+    "eligibility_key": "benefit.de.sb_ausweis.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "sb_ausweis.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "sb_ausweis.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "sb_ausweis.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "krankenkasse_name",
+        "label_key": "sb_ausweis.field.krankenkasse",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "sb_ausweis.help.primary_diagnosis",
+        "key": "primary_diagnosis",
+        "label_key": "sb_ausweis.field.primary_diagnosis",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "other_diagnoses",
+        "label_key": "sb_ausweis.field.other_diagnoses",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "sb_ausweis.help.doctors",
+        "key": "treating_doctors",
+        "label_key": "sb_ausweis.field.doctors",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "self_assessed_gdb",
+        "label_key": "sb_ausweis.field.self_assessed_gdb",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "sb_ausweis.help.merkzeichen",
+        "key": "requested_merkzeichen",
+        "label_key": "sb_ausweis.field.merkzeichen",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "contact_phone",
+        "label_key": "sb_ausweis.field.contact_phone",
+        "required": true,
+        "type": "text"
+      }
+    ],
+    "key": "de:schwerbehindertenausweis",
+    "level": "country",
+    "official_url": "https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Schwerbehindertenausweis/",
+    "one_liner_key": "benefit.de.sb_ausweis.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "schwerbehindertenausweis antrag",
+      "gdb 50",
+      "merkzeichen",
+      "versorgungsamt",
+      "schwerbehinderung antrag",
+      "merkzeichen g",
+      "merkzeichen ag",
+      "schwerbehinderung steuerfreibetrag"
+    ],
+    "slug": "schwerbehindertenausweis",
+    "title_english": "Severe disability ID card",
+    "title_native": "Schwerbehindertenausweis"
+  },
+  {
+    "authority": "Sozialamt (Kommune)",
+    "avg_value_eur_per_year": 6756,
+    "complexity": 4,
+    "complexity_hours_estimated": 3.5,
+    "country": "de",
+    "description_key": "benefit.de.sozialhilfe.description",
+    "eligibility_key": "benefit.de.sozialhilfe.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "sozialhilfe.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "sozialhilfe.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "sozialhilfe.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "household_size",
+        "label_key": "sozialhilfe.field.household_size",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_rent_warm",
+        "label_key": "sozialhilfe.field.rent_warm",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_gross_income",
+        "label_key": "sozialhilfe.field.gross_income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "savings_eur",
+        "label_key": "sozialhilfe.field.savings",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "real_estate_value",
+        "label_key": "sozialhilfe.field.real_estate",
+        "required": false,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "disability_in_household",
+        "label_key": "sozialhilfe.field.disability",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "currently_employed",
+        "label_key": "sozialhilfe.field.employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "number_of_children",
+        "label_key": "sozialhilfe.field.children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "sozialhilfe.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "de:sozialhilfe",
+    "level": "country",
+    "official_url": "https://www.bmas.de/DE/Soziales/Sozialhilfe/sozialhilfe.html",
+    "one_liner_key": "benefit.de.sozialhilfe.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "sozialhilfe antrag",
+      "sgb xii",
+      "grundsicherung im alter",
+      "hilfe zum lebensunterhalt",
+      "sozialamt antrag",
+      "sozialhilfe rechner",
+      "sozialhilfe vermögen"
+    ],
+    "slug": "sozialhilfe",
+    "title_english": "Social assistance",
+    "title_native": "Sozialhilfe (SGB XII)"
+  },
+  {
+    "authority": "Wohngeldstelle (kommunale Behörde)",
+    "avg_value_eur_per_year": 2400,
+    "complexity": 4,
+    "complexity_hours_estimated": 2.0,
+    "country": "de",
+    "description_key": "benefit.de.wohngeld.description",
+    "eligibility_key": "benefit.de.wohngeld.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "wohngeld.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "wohngeld.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "wohngeld.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "wohngeld.help.household_size",
+        "key": "household_size",
+        "label_key": "wohngeld.field.household_size",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "wohngeld.help.rent_warm",
+        "key": "monthly_rent_warm",
+        "label_key": "wohngeld.field.rent_warm",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_rent_cold",
+        "label_key": "wohngeld.field.rent_cold",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_gross_income",
+        "label_key": "wohngeld.field.gross_income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "number_of_children",
+        "label_key": "wohngeld.field.children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "disability_in_household",
+        "label_key": "wohngeld.field.disability",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "wohngeld.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "de:wohngeld",
+    "level": "country",
+    "official_url": "https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/wohnraumfoerderung/wohngeld/wohngeld-node.html",
+    "one_liner_key": "benefit.de.wohngeld.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "wohngeld antrag",
+      "wohngeld berechnen",
+      "wohngeld 2026",
+      "miete zuschuss",
+      "wohngeldrechner",
+      "wohngeld online beantragen"
+    ],
+    "slug": "wohngeld",
+    "title_english": "Housing allowance (Wohngeld)",
+    "title_native": "Wohngeld"
+  }
+]

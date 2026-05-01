@@ -1,0 +1,251 @@
+[
+  {
+    "authority": "DSS (Department of Social Security)",
+    "avg_value_eur_per_year": 1450,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.5,
+    "country": "mt",
+    "description_key": "benefit.mt.childrens.description",
+    "eligibility_key": "benefit.mt.childrens.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "mt.childrens.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "mt.childrens.help.id_card",
+        "key": "applicant_id_card",
+        "label_key": "mt.childrens.field.id_card",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "mt.childrens.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "mt.childrens.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "num_children",
+        "label_key": "mt.childrens.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "mt.childrens.help.children_id_cards",
+        "key": "children_id_cards",
+        "label_key": "mt.childrens.field.children_id_cards",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "children_dobs",
+        "label_key": "mt.childrens.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "mt.childrens.help.household_income",
+        "key": "annual_household_income",
+        "label_key": "mt.childrens.field.household_income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "custody_situation",
+        "label_key": "mt.childrens.field.custody",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "mt.childrens.help.school_attendance",
+        "key": "school_attendance",
+        "label_key": "mt.childrens.field.school_attendance",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "mt.childrens.help.disability",
+        "key": "disability_certificate",
+        "label_key": "mt.childrens.field.disability",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "mt.childrens.help.eu_other",
+        "key": "eu_cross_border_country",
+        "label_key": "mt.childrens.field.eu_other",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "mt.childrens.help.eid",
+        "key": "eid_login",
+        "label_key": "mt.childrens.field.eid",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "mt.childrens.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "mt:childrens-allowance",
+    "level": "country",
+    "official_url": "https://socialsecurity.gov.mt/en/childrens-allowance/",
+    "one_liner_key": "benefit.mt.childrens.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "children's allowance",
+      "childrens allowance Malta",
+      "children's allowance 2026",
+      "DSS children allowance",
+      "in-work benefit Malta",
+      "children's bonus",
+      "Cap 318 children allowance",
+      "social security Malta children"
+    ],
+    "slug": "childrens-allowance",
+    "title_english": "Children's Allowance",
+    "title_native": "Children's Allowance"
+  },
+  {
+    "authority": "DSS (Department of Social Security)",
+    "avg_value_eur_per_year": 11400,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.5,
+    "country": "mt",
+    "description_key": "benefit.mt.retirement.description",
+    "eligibility_key": "benefit.mt.retirement.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "mt.retirement.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "mt.retirement.help.id_card",
+        "key": "applicant_id_card",
+        "label_key": "mt.retirement.field.id_card",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "mt.retirement.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "mt.retirement.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "mt.retirement.help.desired_start",
+        "key": "desired_pension_start",
+        "label_key": "mt.retirement.field.desired_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "mt.retirement.help.years_mt",
+        "key": "years_insured_mt",
+        "label_key": "mt.retirement.field.years_mt",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "mt.retirement.help.years_abroad",
+        "key": "years_insured_abroad",
+        "label_key": "mt.retirement.field.years_abroad",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "foreign_countries_worked",
+        "label_key": "mt.retirement.field.foreign_countries",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "mt.retirement.help.children_raised",
+        "key": "number_of_children_raised",
+        "label_key": "mt.retirement.field.children_raised",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "mt.retirement.help.class",
+        "key": "class_of_contributions",
+        "label_key": "mt.retirement.field.class",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "mt.retirement.help.currently_employed",
+        "key": "currently_employed",
+        "label_key": "mt.retirement.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "eid_login",
+        "label_key": "mt.retirement.field.eid",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "mt.retirement.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "mt:retirement-pension",
+    "level": "country",
+    "official_url": "https://socialsecurity.gov.mt/en/old-age-contributory-pension/",
+    "one_liner_key": "benefit.mt.retirement.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "retirement pension Malta",
+      "two-thirds pension",
+      "old age pension Malta 2026",
+      "DSS pension",
+      "Maximum Pensionable Income MPI",
+      "Cap 318 pension",
+      "Pensions Act 2007 reform",
+      "Maltese pension calculator"
+    ],
+    "slug": "retirement-pension",
+    "title_english": "Retirement Pension",
+    "title_native": "Retirement Pension (Two-Thirds Pension)"
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "authority": "Department of Social Protection (DSP)",
+    "avg_value_eur_per_year": 1700,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.5,
+    "country": "ie",
+    "description_key": "benefit.ie.child_benefit.description",
+    "eligibility_key": "benefit.ie.child_benefit.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "ie.child_benefit.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "ie.child_benefit.help.pps_number",
+        "key": "applicant_pps_number",
+        "label_key": "ie.child_benefit.field.pps_number",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "ie.child_benefit.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "num_children",
+        "label_key": "ie.child_benefit.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "ie.child_benefit.help.children_pps",
+        "key": "children_pps_numbers",
+        "label_key": "ie.child_benefit.field.children_pps",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "children_dobs",
+        "label_key": "ie.child_benefit.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "ie.child_benefit.help.in_school",
+        "key": "children_in_school",
+        "label_key": "ie.child_benefit.field.in_school",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "ie.child_benefit.help.hrc",
+        "key": "habitual_residence_status",
+        "label_key": "ie.child_benefit.field.hrc",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "custody_situation",
+        "label_key": "ie.child_benefit.field.custody",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "parent_2_pps",
+        "label_key": "ie.child_benefit.field.parent_2_pps",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "ie.child_benefit.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "ie:child-benefit",
+    "level": "country",
+    "official_url": "https://www.gov.ie/en/service/19fe98-child-benefit/",
+    "one_liner_key": "benefit.ie.child_benefit.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "child benefit ireland",
+      "children's allowance ireland",
+      "child benefit application",
+      "child benefit 2026",
+      "DSP child benefit",
+      "MyWelfare child benefit"
+    ],
+    "slug": "child-benefit",
+    "title_english": "Child Benefit",
+    "title_native": "Child Benefit"
+  },
+  {
+    "authority": "Department of Social Protection (DSP)",
+    "avg_value_eur_per_year": 14000,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.5,
+    "country": "ie",
+    "description_key": "benefit.ie.spc.description",
+    "eligibility_key": "benefit.ie.spc.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "ie.spc.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_pps_number",
+        "label_key": "ie.spc.field.pps_number",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "ie.spc.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "ie.spc.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "desired_pension_start",
+        "label_key": "ie.spc.field.desired_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "ie.spc.help.prsi_years",
+        "key": "years_of_prsi_contributions",
+        "label_key": "ie.spc.field.prsi_years",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "years_worked_abroad",
+        "label_key": "ie.spc.field.years_abroad",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "ie.spc.help.eu_other_country",
+        "key": "worked_in_other_eu_country",
+        "label_key": "ie.spc.field.eu_other_country",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "currently_employed",
+        "label_key": "ie.spc.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_gross_eur_last_year",
+        "label_key": "ie.spc.field.gross_eur_last",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "mywelfare_login",
+        "label_key": "ie.spc.field.mywelfare_login",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "ie.spc.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "ie:state-pension-contributory",
+    "level": "country",
+    "official_url": "https://www.gov.ie/en/service/e6f908-state-pension-contributory/",
+    "one_liner_key": "benefit.ie.spc.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "state pension contributory ireland",
+      "SPC ireland",
+      "state pension application 2026",
+      "SPC1 form",
+      "PRSI contributions pension",
+      "MyWelfare pension"
+    ],
+    "slug": "state-pension-contributory",
+    "title_english": "State Pension (Contributory)",
+    "title_native": "State Pension (Contributory)"
+  }
+]

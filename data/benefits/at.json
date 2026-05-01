@@ -1,0 +1,226 @@
+[
+  {
+    "authority": "Finanzamt Österreich (Familienbeihilfen)",
+    "avg_value_eur_per_year": 2100,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.6,
+    "country": "at",
+    "description_key": "benefit.at.familienbeihilfe.description",
+    "eligibility_key": "benefit.at.familienbeihilfe.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "at.familienbeihilfe.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "at.familienbeihilfe.help.svnr",
+        "key": "applicant_svnr",
+        "label_key": "at.familienbeihilfe.field.svnr",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "at.familienbeihilfe.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "num_children",
+        "label_key": "at.familienbeihilfe.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "at.familienbeihilfe.help.children_svnr",
+        "key": "children_svnr",
+        "label_key": "at.familienbeihilfe.field.children_svnr",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "children_dobs",
+        "label_key": "at.familienbeihilfe.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "at.familienbeihilfe.help.in_school",
+        "key": "children_in_school",
+        "label_key": "at.familienbeihilfe.field.in_school",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "custody_situation",
+        "label_key": "at.familienbeihilfe.field.custody",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "parent_2_svnr",
+        "label_key": "at.familienbeihilfe.field.parent_2_svnr",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "at.familienbeihilfe.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "at:familienbeihilfe",
+    "level": "country",
+    "official_url": "https://www.bmf.gv.at/themen/steuern/familienleistungen/familienbeihilfe.html",
+    "one_liner_key": "benefit.at.familienbeihilfe.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "familienbeihilfe österreich",
+      "familienbeihilfe antrag",
+      "familienbeihilfe finanzamt",
+      "familienbeihilfe 2026",
+      "kinderbeihilfe österreich",
+      "familienbeihilfe höhe"
+    ],
+    "slug": "familienbeihilfe",
+    "title_english": "Universal child allowance",
+    "title_native": "Familienbeihilfe"
+  },
+  {
+    "authority": "Bezirkshauptmannschaft / Magistrat (Sozialamt)",
+    "avg_value_eur_per_year": 11000,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.6,
+    "country": "at",
+    "description_key": "benefit.at.bms.description",
+    "eligibility_key": "benefit.at.bms.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "at.bms.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_svnr",
+        "label_key": "at.bms.field.svnr",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "at.bms.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "at.bms.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "bundesland",
+        "label_key": "at.bms.field.bundesland",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "household_size",
+        "label_key": "at.bms.field.household_size",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "household_situation",
+        "label_key": "at.bms.field.household_situation",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "at.bms.help.income",
+        "key": "monthly_household_income",
+        "label_key": "at.bms.field.income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "housing_status",
+        "label_key": "at.bms.field.housing",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_rent",
+        "label_key": "at.bms.field.rent",
+        "required": false,
+        "type": "money"
+      },
+      {
+        "help_key": "at.bms.help.assets_above",
+        "key": "assets_above_5000",
+        "label_key": "at.bms.field.assets_above",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "currently_employed",
+        "label_key": "at.bms.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "at.bms.help.ams",
+        "key": "ams_registered",
+        "label_key": "at.bms.field.ams",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "at.bms.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "at:mindestsicherung-bms",
+    "level": "country",
+    "official_url": "https://www.sozialministerium.at/Themen/Soziales/Sozialhilfe-und-Mindestsicherung/Sozialhilfe-Grundsatzgesetz.html",
+    "one_liner_key": "benefit.at.bms.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "mindestsicherung österreich",
+      "sozialhilfe antrag",
+      "bedarfsorientierte mindestsicherung",
+      "bms österreich 2026",
+      "sozialhilfe höhe",
+      "sozialhilfe wien antrag"
+    ],
+    "slug": "mindestsicherung-bms",
+    "title_english": "Means-tested minimum income",
+    "title_native": "Sozialhilfe / Mindestsicherung"
+  }
+]

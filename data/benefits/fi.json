@@ -1,0 +1,965 @@
+[
+  {
+    "authority": "Kela (kansaneläke) / työeläkelaitos",
+    "avg_value_eur_per_year": 14400,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.6,
+    "country": "fi",
+    "description_key": "benefit.fi.elakkeet.description",
+    "eligibility_key": "benefit.fi.elakkeet.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "fi.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "fi.help.henkilotunnus",
+        "key": "applicant_personal_id",
+        "label_key": "fi.field.henkilotunnus",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "fi.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "pension_type",
+        "label_key": "fi.field.pension_type",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "date_of_birth",
+        "label_key": "fi.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "years_of_residence_in_finland",
+        "label_key": "fi.field.residence_years",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "currently_employed",
+        "label_key": "fi.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "expected_employer_pension_eur_month",
+        "label_key": "fi.field.expected_tyoelake",
+        "required": false,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "desired_pension_start",
+        "label_key": "fi.field.desired_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "fi.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "fi:elakkeet",
+    "level": "country",
+    "official_url": "https://www.kela.fi/elakkeet",
+    "one_liner_key": "benefit.fi.elakkeet.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "kansaneläke",
+      "takuueläke",
+      "vanhuuseläke",
+      "työkyvyttömyyseläke",
+      "kela eläke 2026"
+    ],
+    "slug": "elakkeet",
+    "title_english": "Pensions",
+    "title_native": "Eläkkeet"
+  },
+  {
+    "authority": "Kela",
+    "avg_value_eur_per_year": 4800,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.0,
+    "country": "fi",
+    "description_key": "benefit.fi.kotihoidon-tuki.description",
+    "eligibility_key": "benefit.fi.kotihoidon-tuki.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "fi.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "fi.help.henkilotunnus",
+        "key": "applicant_personal_id",
+        "label_key": "fi.field.henkilotunnus",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "fi.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "number_of_children_under_3",
+        "label_key": "fi.field.children_under_3",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "number_of_children_3_to_school",
+        "label_key": "fi.field.children_3_to_school",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "youngest_child_birth_date",
+        "label_key": "fi.field.youngest_child_birth",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "primary_carer",
+        "label_key": "fi.field.primary_carer",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "partner_employed",
+        "label_key": "fi.field.partner_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_household_income",
+        "label_key": "fi.field.income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "fi.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "fi:kotihoidon-tuki",
+    "level": "country",
+    "official_url": "https://www.kela.fi/kotihoidon-tuki",
+    "one_liner_key": "benefit.fi.kotihoidon-tuki.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "kotihoidon tuki",
+      "lasten kotihoidon tuki",
+      "kela kotihoidon tuki",
+      "kuntalisä kotihoito",
+      "kotihoidon tuki 2026"
+    ],
+    "slug": "kotihoidon-tuki",
+    "title_english": "Home-care allowance",
+    "title_native": "Kotihoidon tuki"
+  },
+  {
+    "authority": "Kela",
+    "avg_value_eur_per_year": 1500,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.6,
+    "country": "fi",
+    "description_key": "benefit.fi.lapsilisa.description",
+    "eligibility_key": "benefit.fi.lapsilisa.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "fi.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "fi.help.henkilotunnus",
+        "key": "applicant_personal_id",
+        "label_key": "fi.field.henkilotunnus",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "fi.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "number_of_children",
+        "label_key": "fi.field.children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "single_parent",
+        "label_key": "fi.field.single_parent",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "child1_name",
+        "label_key": "fi.field.child_name",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "child1_personal_id",
+        "label_key": "fi.field.child_henkilotunnus",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "fi.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "fi:lapsilisa",
+    "level": "country",
+    "official_url": "https://www.kela.fi/lapsilisa",
+    "one_liner_key": "benefit.fi.lapsilisa.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "lapsilisä",
+      "lapsilisä hakemus",
+      "kela lapsilisä",
+      "lapsilisä määrä 2026",
+      "yksinhuoltajakorotus"
+    ],
+    "slug": "lapsilisa",
+    "title_english": "Child benefit",
+    "title_native": "Lapsilisä"
+  },
+  {
+    "authority": "Kela",
+    "avg_value_eur_per_year": 4500,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.0,
+    "country": "fi",
+    "description_key": "benefit.fi.opintotuki.description",
+    "eligibility_key": "benefit.fi.opintotuki.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "fi.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "fi.help.henkilotunnus",
+        "key": "applicant_personal_id",
+        "label_key": "fi.field.henkilotunnus",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "fi.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "study_level",
+        "label_key": "fi.field.study_level",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "educational_institution",
+        "label_key": "fi.field.institution",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "study_start_date",
+        "label_key": "fi.field.study_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "expected_graduation",
+        "label_key": "fi.field.expected_graduation",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_rent",
+        "label_key": "fi.field.rent",
+        "required": false,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "government_loan_guarantee",
+        "label_key": "fi.field.loan_guarantee",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "fi.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "fi:opintotuki",
+    "level": "country",
+    "official_url": "https://www.kela.fi/opintotuki",
+    "one_liner_key": "benefit.fi.opintotuki.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "opintotuki",
+      "opintoraha",
+      "asumislisä opiskelija",
+      "kela opintotuki",
+      "opintotuki 2026"
+    ],
+    "slug": "opintotuki",
+    "title_english": "Student aid",
+    "title_native": "Opintotuki"
+  },
+  {
+    "authority": "Kela",
+    "avg_value_eur_per_year": 8000,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.0,
+    "country": "fi",
+    "description_key": "benefit.fi.sairauspaivaraha.description",
+    "eligibility_key": "benefit.fi.sairauspaivaraha.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "fi.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "fi.help.henkilotunnus",
+        "key": "applicant_personal_id",
+        "label_key": "fi.field.henkilotunnus",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "fi.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "sick_leave_start",
+        "label_key": "fi.field.sick_leave_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "sick_leave_end_estimate",
+        "label_key": "fi.field.sick_leave_end",
+        "required": false,
+        "type": "date"
+      },
+      {
+        "help_key": "fi.help.diagnosis_code",
+        "key": "diagnosis_code",
+        "label_key": "fi.field.diagnosis_code",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "treating_doctor",
+        "label_key": "fi.field.treating_doctor",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_gross_income",
+        "label_key": "fi.field.income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "employer_name",
+        "label_key": "fi.field.employer_name",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "employer_pays_salary",
+        "label_key": "fi.field.employer_pays_salary",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "fi.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "fi:sairauspaivaraha",
+    "level": "country",
+    "official_url": "https://www.kela.fi/sairauspaivaraha",
+    "one_liner_key": "benefit.fi.sairauspaivaraha.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "sairauspäiväraha",
+      "sairausloma korvaus",
+      "kela sairauspäiväraha",
+      "sairauspäiväraha laskuri",
+      "sairauspäiväraha 2026"
+    ],
+    "slug": "sairauspaivaraha",
+    "title_english": "Sickness daily allowance",
+    "title_native": "Sairauspäiväraha"
+  },
+  {
+    "authority": "Kela (perustoimeentulotuki)",
+    "avg_value_eur_per_year": 6000,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.5,
+    "country": "fi",
+    "description_key": "benefit.fi.toimeentulotuki.description",
+    "eligibility_key": "benefit.fi.toimeentulotuki.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "fi.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "fi.help.henkilotunnus",
+        "key": "applicant_personal_id",
+        "label_key": "fi.field.henkilotunnus",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "fi.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "household_size",
+        "label_key": "fi.field.household_size",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_rent",
+        "label_key": "fi.field.rent",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_household_income",
+        "label_key": "fi.field.income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "savings_total",
+        "label_key": "fi.field.savings",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "employment_status",
+        "label_key": "fi.field.employment_status",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "number_of_children",
+        "label_key": "fi.field.children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "fi.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "fi:toimeentulotuki",
+    "level": "country",
+    "official_url": "https://www.kela.fi/toimeentulotuki",
+    "one_liner_key": "benefit.fi.toimeentulotuki.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "toimeentulotuki",
+      "perustoimeentulotuki",
+      "kela toimeentulotuki",
+      "toimeentulotuki hakemus",
+      "toimeentulotuki 2026"
+    ],
+    "slug": "toimeentulotuki",
+    "title_english": "Basic social assistance",
+    "title_native": "Toimeentulotuki"
+  },
+  {
+    "authority": "Kela (peruspäiväraha & työmarkkinatuki)",
+    "avg_value_eur_per_year": 9000,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.5,
+    "country": "fi",
+    "description_key": "benefit.fi.tyottomyysturva.description",
+    "eligibility_key": "benefit.fi.tyottomyysturva.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "fi.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "fi.help.henkilotunnus",
+        "key": "applicant_personal_id",
+        "label_key": "fi.field.henkilotunnus",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "fi.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "fi.help.registered_te",
+        "key": "registered_with_te",
+        "label_key": "fi.field.registered_te",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "registered_since",
+        "label_key": "fi.field.registered_since",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "benefit_type",
+        "label_key": "fi.field.tyottomyys_type",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "last_employer",
+        "label_key": "fi.field.last_employer",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "last_employment_end",
+        "label_key": "fi.field.last_employment_end",
+        "required": false,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "last_monthly_salary_gross",
+        "label_key": "fi.field.last_salary",
+        "required": false,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "union_member",
+        "label_key": "fi.field.union_member",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "fi.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "fi:tyottomyysturva",
+    "level": "country",
+    "official_url": "https://www.kela.fi/tyottomyys",
+    "one_liner_key": "benefit.fi.tyottomyysturva.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "työttömyysturva",
+      "peruspäiväraha",
+      "työmarkkinatuki",
+      "kela työtön",
+      "työttömyyskorvaus 2026"
+    ],
+    "slug": "tyottomyysturva",
+    "title_english": "Unemployment security",
+    "title_native": "Työttömyysturva"
+  },
+  {
+    "authority": "Kela",
+    "avg_value_eur_per_year": 3000,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.5,
+    "country": "fi",
+    "description_key": "benefit.fi.vammaisetuudet.description",
+    "eligibility_key": "benefit.fi.vammaisetuudet.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "fi.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "fi.help.henkilotunnus",
+        "key": "applicant_personal_id",
+        "label_key": "fi.field.henkilotunnus",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "fi.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "benefit_type",
+        "label_key": "fi.field.vammais_type",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "disability_diagnosis",
+        "label_key": "fi.field.diagnosis",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "treating_doctor",
+        "label_key": "fi.field.treating_doctor",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "disability_started",
+        "label_key": "fi.field.disability_started",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "daily_assistance_needed",
+        "label_key": "fi.field.assistance_level",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "currently_receives_pension",
+        "label_key": "fi.field.receives_pension",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "fi.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "fi:vammaisetuudet",
+    "level": "country",
+    "official_url": "https://www.kela.fi/vammaisetuudet",
+    "one_liner_key": "benefit.fi.vammaisetuudet.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "vammaisetuudet",
+      "vammaistuki",
+      "alle 16 vuotiaan vammaistuki",
+      "16 vuotta täyttäneen vammaistuki",
+      "eläkettä saavan hoitotuki"
+    ],
+    "slug": "vammaisetuudet",
+    "title_english": "Disability benefits",
+    "title_native": "Vammaisetuudet"
+  },
+  {
+    "authority": "Kela",
+    "avg_value_eur_per_year": 12000,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.2,
+    "country": "fi",
+    "description_key": "benefit.fi.vanhempainpaivaraha.description",
+    "eligibility_key": "benefit.fi.vanhempainpaivaraha.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "fi.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "fi.help.henkilotunnus",
+        "key": "applicant_personal_id",
+        "label_key": "fi.field.henkilotunnus",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "fi.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "role",
+        "label_key": "fi.field.parent_role",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "expected_due_date",
+        "label_key": "fi.field.due_date",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "child_birth_date",
+        "label_key": "fi.field.child_birth_date",
+        "required": false,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_gross_income",
+        "label_key": "fi.field.income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "employer_name",
+        "label_key": "fi.field.employer_name",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "partner_will_apply",
+        "label_key": "fi.field.partner_will_apply",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "fi.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "fi:vanhempainpaivaraha",
+    "level": "country",
+    "official_url": "https://www.kela.fi/vanhempainpaivarahat",
+    "one_liner_key": "benefit.fi.vanhempainpaivaraha.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "vanhempainpäiväraha",
+      "vanhempainvapaa",
+      "äitiysraha",
+      "isyysraha",
+      "kela vanhempainpäiväraha 2026"
+    ],
+    "slug": "vanhempainpaivaraha",
+    "title_english": "Parental daily allowance",
+    "title_native": "Vanhempainpäiväraha"
+  },
+  {
+    "authority": "Kela (Kansaneläkelaitos)",
+    "avg_value_eur_per_year": 3600,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.5,
+    "country": "fi",
+    "description_key": "benefit.fi.asumistuki.description",
+    "eligibility_key": "benefit.fi.asumistuki.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "asumistuki.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "asumistuki.help.henkilotunnus",
+        "key": "applicant_personal_id",
+        "label_key": "asumistuki.field.henkilotunnus",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "asumistuki.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "household_size",
+        "label_key": "asumistuki.field.household_size",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_rent",
+        "label_key": "asumistuki.field.rent",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_gross_income",
+        "label_key": "asumistuki.field.income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "dwelling_type",
+        "label_key": "asumistuki.field.dwelling_type",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "number_of_children",
+        "label_key": "asumistuki.field.children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "asumistuki.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "fi:yleinen-asumistuki",
+    "level": "country",
+    "official_url": "https://www.kela.fi/yleinen-asumistuki",
+    "one_liner_key": "benefit.fi.asumistuki.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "yleinen asumistuki",
+      "asumistuki hakemus",
+      "kela asumistuki",
+      "asumistuki laskuri",
+      "asumistuki 2026"
+    ],
+    "slug": "yleinen-asumistuki",
+    "title_english": "General housing allowance",
+    "title_native": "Yleinen asumistuki"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "authority": "HZMO (Hrvatski zavod za mirovinsko osiguranje)",
+    "avg_value_eur_per_year": 1080,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.7,
+    "country": "hr",
+    "description_key": "benefit.hr.doplatak.description",
+    "eligibility_key": "benefit.hr.doplatak.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "hr.doplatak.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "hr.doplatak.help.oib",
+        "key": "applicant_oib",
+        "label_key": "hr.doplatak.field.oib",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "hr.doplatak.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "hr.doplatak.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "num_children",
+        "label_key": "hr.doplatak.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "hr.doplatak.help.children_oibs",
+        "key": "children_oibs",
+        "label_key": "hr.doplatak.field.children_oibs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "children_dobs",
+        "label_key": "hr.doplatak.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "hr.doplatak.help.household_income",
+        "key": "monthly_household_income",
+        "label_key": "hr.doplatak.field.household_income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "custody_situation",
+        "label_key": "hr.doplatak.field.custody",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "hr.doplatak.help.school_attendance",
+        "key": "school_attendance",
+        "label_key": "hr.doplatak.field.school_attendance",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "hr.doplatak.help.disability",
+        "key": "disability_certificate",
+        "label_key": "hr.doplatak.field.disability",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "hr.doplatak.help.eu_other",
+        "key": "eu_cross_border_other_country",
+        "label_key": "hr.doplatak.field.eu_other",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "hr.doplatak.help.nias",
+        "key": "nias_login",
+        "label_key": "hr.doplatak.field.nias",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "hr.doplatak.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "hr:doplatak-za-djecu",
+    "level": "country",
+    "official_url": "https://www.hzmo.hr/usluga/doplatak-za-djecu/",
+    "one_liner_key": "benefit.hr.doplatak.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "doplatak za djecu",
+      "dječji doplatak",
+      "doplatak za djecu 2026",
+      "HZMO doplatak",
+      "ZDD doplatak",
+      "cenzusi za doplatak",
+      "zahtjev doplatak za djecu"
+    ],
+    "slug": "doplatak-za-djecu",
+    "title_english": "Child supplement",
+    "title_native": "Doplatak za djecu"
+  },
+  {
+    "authority": "HZMO (Hrvatski zavod za mirovinsko osiguranje)",
+    "avg_value_eur_per_year": 6480,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.5,
+    "country": "hr",
+    "description_key": "benefit.hr.mirovina.description",
+    "eligibility_key": "benefit.hr.mirovina.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "hr.mirovina.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "hr.mirovina.help.oib",
+        "key": "applicant_oib",
+        "label_key": "hr.mirovina.field.oib",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "hr.mirovina.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "hr.mirovina.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "hr.mirovina.help.desired_start",
+        "key": "desired_pension_start",
+        "label_key": "hr.mirovina.field.desired_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "hr.mirovina.help.years_hr",
+        "key": "years_insured_hr",
+        "label_key": "hr.mirovina.field.years_hr",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "hr.mirovina.help.years_abroad",
+        "key": "years_insured_abroad",
+        "label_key": "hr.mirovina.field.years_abroad",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "foreign_countries_worked",
+        "label_key": "hr.mirovina.field.foreign_countries",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "hr.mirovina.help.children_raised",
+        "key": "number_of_children_raised",
+        "label_key": "hr.mirovina.field.children_raised",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "hr.mirovina.help.regos",
+        "key": "second_pillar_regos",
+        "label_key": "hr.mirovina.field.regos",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "hr.mirovina.help.currently_employed",
+        "key": "currently_employed",
+        "label_key": "hr.mirovina.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "nias_login",
+        "label_key": "hr.mirovina.field.nias",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "hr.mirovina.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "hr:starosna-mirovina",
+    "level": "country",
+    "official_url": "https://www.hzmo.hr/usluga/starosna-mirovina/",
+    "one_liner_key": "benefit.hr.mirovina.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "starosna mirovina",
+      "mirovina 2026",
+      "uvjeti za mirovinu",
+      "HZMO mirovina",
+      "prijevremena mirovina",
+      "izračun mirovine",
+      "mirovinski faktor",
+      "trostupni mirovinski sustav",
+      "REGOS II stup",
+      "13. mirovina"
+    ],
+    "slug": "starosna-mirovina",
+    "title_english": "Old-age contributory pension",
+    "title_native": "Starosna mirovina"
+  }
+]

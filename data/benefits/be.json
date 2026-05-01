@@ -1,0 +1,250 @@
+[
+  {
+    "authority": "Opgroeien (uitbetaler naar keuze)",
+    "avg_value_eur_per_year": 2160,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.7,
+    "country": "be",
+    "description_key": "benefit.be.groeipakket.description",
+    "eligibility_key": "benefit.be.groeipakket.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "be.groeipakket.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_rrnr",
+        "label_key": "be.groeipakket.field.rrnr",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "be.groeipakket.help.address",
+        "key": "applicant_address",
+        "label_key": "be.groeipakket.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "be.groeipakket.help.uitbetaler",
+        "key": "uitbetaler",
+        "label_key": "be.groeipakket.field.uitbetaler",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "num_children",
+        "label_key": "be.groeipakket.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "be.groeipakket.help.children_rrnrs",
+        "key": "children_rrnrs",
+        "label_key": "be.groeipakket.field.children_rrnrs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "children_dobs",
+        "label_key": "be.groeipakket.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "be.groeipakket.help.household_income",
+        "key": "annual_household_income",
+        "label_key": "be.groeipakket.field.household_income",
+        "required": false,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "custody_situation",
+        "label_key": "be.groeipakket.field.custody",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "be.groeipakket.help.vlaams_woonplaats",
+        "key": "flemish_residence",
+        "label_key": "be.groeipakket.field.vlaams_woonplaats",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "itsme_login",
+        "label_key": "be.groeipakket.field.itsme",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "be.groeipakket.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "be:groeipakket-vlaams",
+    "level": "country",
+    "official_url": "https://www.groeipakket.be/",
+    "one_liner_key": "benefit.be.groeipakket.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "groeipakket",
+      "groeipakket aanvragen",
+      "kinderbijslag vlaanderen",
+      "groeipakket bedrag 2026",
+      "groeipakket schoolbonus",
+      "uitbetaler groeipakket",
+      "fons infino kidslife parentia myfamily"
+    ],
+    "slug": "groeipakket-vlaams",
+    "title_english": "Flemish growth-package (child allowance)",
+    "title_native": "Groeipakket (Vlaams)"
+  },
+  {
+    "authority": "OCMW / CPAS",
+    "avg_value_eur_per_year": 14400,
+    "complexity": 4,
+    "complexity_hours_estimated": 2.0,
+    "country": "be",
+    "description_key": "benefit.be.leefloon.description",
+    "eligibility_key": "benefit.be.leefloon.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "be.leefloon.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "be.leefloon.help.rrnr",
+        "key": "applicant_rrnr",
+        "label_key": "be.leefloon.field.rrnr",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "be.leefloon.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "be.leefloon.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "be.leefloon.help.category",
+        "key": "category",
+        "label_key": "be.leefloon.field.category",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "household_composition",
+        "label_key": "be.leefloon.field.household",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "num_dependent_children",
+        "label_key": "be.leefloon.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "be.leefloon.help.monthly_income",
+        "key": "monthly_income",
+        "label_key": "be.leefloon.field.monthly_income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "partner_income",
+        "label_key": "be.leefloon.field.partner_income",
+        "required": false,
+        "type": "money"
+      },
+      {
+        "help_key": "be.leefloon.help.savings",
+        "key": "savings_balance",
+        "label_key": "be.leefloon.field.savings",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "be.leefloon.help.work_disposed",
+        "key": "works_or_seeks_work",
+        "label_key": "be.leefloon.field.work_disposed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "be.leefloon.help.vdab_registered",
+        "key": "vdab_actiris_forem_registered",
+        "label_key": "be.leefloon.field.vdab_registered",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "nationality_status",
+        "label_key": "be.leefloon.field.nationality",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "itsme_login",
+        "label_key": "be.leefloon.field.itsme",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "be.leefloon.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "be:leefloon",
+    "level": "country",
+    "official_url": "https://www.pod-mi.be/nl/leefloon",
+    "one_liner_key": "benefit.be.leefloon.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "leefloon",
+      "leefloon aanvragen",
+      "revenu d'intégration",
+      "RIS aanvragen",
+      "OCMW leefloon",
+      "CPAS revenu intégration",
+      "leefloon bedrag 2026",
+      "categorie 1 2 3 leefloon"
+    ],
+    "slug": "leefloon",
+    "title_english": "Means-tested integration income",
+    "title_native": "Leefloon / Revenu d'intégration"
+  }
+]

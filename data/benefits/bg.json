@@ -1,0 +1,259 @@
+[
+  {
+    "authority": "АСП (Агенция за социално подпомагане)",
+    "avg_value_eur_per_year": 600,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.6,
+    "country": "bg",
+    "description_key": "benefit.bg.detski.description",
+    "eligibility_key": "benefit.bg.detski.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "bg.detski.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "bg.detski.help.egn",
+        "key": "applicant_egn",
+        "label_key": "bg.detski.field.egn",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "bg.detski.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "bg.detski.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "num_children",
+        "label_key": "bg.detski.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "bg.detski.help.children_egns",
+        "key": "children_egns",
+        "label_key": "bg.detski.field.children_egns",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "children_dobs",
+        "label_key": "bg.detski.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "bg.detski.help.household_income",
+        "key": "monthly_household_income",
+        "label_key": "bg.detski.field.household_income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "bg.detski.help.school_certs",
+        "key": "school_attendance_certificates",
+        "label_key": "bg.detski.field.school_certs",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "custody_situation",
+        "label_key": "bg.detski.field.custody",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "bg.detski.help.twins",
+        "key": "twins_or_more",
+        "label_key": "bg.detski.field.twins",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "bg.detski.help.disability",
+        "key": "disability_certificate",
+        "label_key": "bg.detski.field.disability",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "bg.detski.help.kep",
+        "key": "kep_login",
+        "label_key": "bg.detski.field.kep",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "bg.detski.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "bg:detski-nadbavki",
+    "level": "country",
+    "official_url": "https://www.asp.government.bg/bg/deynost/sotsialno-podpomagane/semeyni-pomoshti/",
+    "one_liner_key": "benefit.bg.detski.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "детски надбавки",
+      "месечни помощи за деца",
+      "детски надбавки 2026",
+      "АСП детски",
+      "семейни помощи за деца ЗСПД",
+      "доход за детски",
+      "Дирекция социално подпомагане"
+    ],
+    "slug": "detski-nadbavki",
+    "title_english": "Monthly child allowances",
+    "title_native": "Месечни помощи за деца (детски надбавки)"
+  },
+  {
+    "authority": "НОИ (Национален осигурителен институт)",
+    "avg_value_eur_per_year": 5244,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.5,
+    "country": "bg",
+    "description_key": "benefit.bg.pensia.description",
+    "eligibility_key": "benefit.bg.pensia.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "bg.pensia.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "bg.pensia.help.egn",
+        "key": "applicant_egn",
+        "label_key": "bg.pensia.field.egn",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "bg.pensia.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "bg.pensia.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "bg.pensia.help.desired_start",
+        "key": "desired_pension_start",
+        "label_key": "bg.pensia.field.desired_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "bg.pensia.help.years_bg",
+        "key": "years_insured_bg",
+        "label_key": "bg.pensia.field.years_bg",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "bg.pensia.help.years_abroad",
+        "key": "years_insured_abroad",
+        "label_key": "bg.pensia.field.years_abroad",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "foreign_countries_worked",
+        "label_key": "bg.pensia.field.foreign_countries",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "bg.pensia.help.category",
+        "key": "category_of_labor",
+        "label_key": "bg.pensia.field.category",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "bg.pensia.help.children_raised",
+        "key": "number_of_children_raised",
+        "label_key": "bg.pensia.field.children_raised",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "bg.pensia.help.upf",
+        "key": "upf_pillar_2",
+        "label_key": "bg.pensia.field.upf",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "bg.pensia.help.currently_employed",
+        "key": "currently_employed",
+        "label_key": "bg.pensia.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "kep_login",
+        "label_key": "bg.pensia.field.kep",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "bg.pensia.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "bg:pensia-za-stazh-i-vazrast",
+    "level": "country",
+    "official_url": "https://www.nssi.bg/aboutbg/st/staterets/2114-pensions-for-insurance-and-age",
+    "one_liner_key": "benefit.bg.pensia.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "пенсия за стаж и възраст",
+      "пенсия 2026",
+      "възраст за пенсиониране 2026",
+      "НОИ пенсия",
+      "минимална пенсия",
+      "максимална пенсия 3400 лв",
+      "коефициент за пенсиониране",
+      "ИКП пенсия",
+      "13-та пенсия Великден",
+      "ранно пенсиониране"
+    ],
+    "slug": "pensia-za-stazh-i-vazrast",
+    "title_english": "Old-age contributory pension",
+    "title_native": "Пенсия за осигурителен стаж и възраст"
+  }
+]

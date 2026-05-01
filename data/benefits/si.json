@@ -1,0 +1,257 @@
+[
+  {
+    "authority": "Center za socialno delo (CSD)",
+    "avg_value_eur_per_year": 1200,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.7,
+    "country": "si",
+    "description_key": "benefit.si.otroski.description",
+    "eligibility_key": "benefit.si.otroski.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "si.otroski.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "si.otroski.help.emso",
+        "key": "applicant_emso",
+        "label_key": "si.otroski.field.emso",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "si.otroski.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "si.otroski.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "si.otroski.help.davcna",
+        "key": "applicant_davcna",
+        "label_key": "si.otroski.field.davcna",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "num_children",
+        "label_key": "si.otroski.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "si.otroski.help.children_emsos",
+        "key": "children_emsos",
+        "label_key": "si.otroski.field.children_emsos",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "children_dobs",
+        "label_key": "si.otroski.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "si.otroski.help.household_income",
+        "key": "annual_household_income",
+        "label_key": "si.otroski.field.household_income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "custody_situation",
+        "label_key": "si.otroski.field.custody",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "si.otroski.help.school_attendance",
+        "key": "school_attendance",
+        "label_key": "si.otroski.field.school_attendance",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "partner_employed",
+        "label_key": "si.otroski.field.partner_employed",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "si.otroski.help.sipass",
+        "key": "sipass_login",
+        "label_key": "si.otroski.field.sipass",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "si.otroski.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "si:otroski-dodatek",
+    "level": "country",
+    "official_url": "https://www.gov.si/teme/otroski-dodatek/",
+    "one_liner_key": "benefit.si.otroski.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "otroški dodatek",
+      "otroški dodatek 2026",
+      "otroški dodatek CSD",
+      "ZSDP-1",
+      "dohodkovni razred",
+      "otroški dodatek lestvica",
+      "vloga za otroški dodatek"
+    ],
+    "slug": "otroski-dodatek",
+    "title_english": "Child supplement",
+    "title_native": "Otroški dodatek"
+  },
+  {
+    "authority": "Zavod za pokojninsko in invalidsko zavarovanje (ZPIZ)",
+    "avg_value_eur_per_year": 9300,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.5,
+    "country": "si",
+    "description_key": "benefit.si.pokojnina.description",
+    "eligibility_key": "benefit.si.pokojnina.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "si.pokojnina.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "si.pokojnina.help.emso",
+        "key": "applicant_emso",
+        "label_key": "si.pokojnina.field.emso",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "si.pokojnina.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "si.pokojnina.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "si.pokojnina.help.davcna",
+        "key": "applicant_davcna",
+        "label_key": "si.pokojnina.field.davcna",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "si.pokojnina.help.desired_start",
+        "key": "desired_pension_start",
+        "label_key": "si.pokojnina.field.desired_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "si.pokojnina.help.years_si",
+        "key": "years_insured_si",
+        "label_key": "si.pokojnina.field.years_si",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "si.pokojnina.help.years_abroad",
+        "key": "years_insured_abroad",
+        "label_key": "si.pokojnina.field.years_abroad",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "foreign_countries_worked",
+        "label_key": "si.pokojnina.field.foreign_countries",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "si.pokojnina.help.children_raised",
+        "key": "number_of_children_raised",
+        "label_key": "si.pokojnina.field.children_raised",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "si.pokojnina.help.kapitalska",
+        "key": "dispense_second_pillar",
+        "label_key": "si.pokojnina.field.kapitalska",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "si.pokojnina.help.currently_employed",
+        "key": "currently_employed",
+        "label_key": "si.pokojnina.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "sipass_login",
+        "label_key": "si.pokojnina.field.sipass",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "si.pokojnina.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "si:starostna-pokojnina",
+    "level": "country",
+    "official_url": "https://www.zpiz.si/cms/content2019/predcasna-in-starostna-pokojnina",
+    "one_liner_key": "benefit.si.pokojnina.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "starostna pokojnina",
+      "pokojnina 2026",
+      "pokojninska doba",
+      "ZPIZ pokojnina",
+      "predčasna pokojnina",
+      "izračun pokojnine",
+      "minimalna pokojnina 2026",
+      "pokojninska osnova"
+    ],
+    "slug": "starostna-pokojnina",
+    "title_english": "Old-age pension",
+    "title_native": "Starostna pokojnina"
+  }
+]

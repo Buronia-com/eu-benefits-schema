@@ -1,0 +1,324 @@
+[
+  {
+    "authority": "INPS",
+    "avg_value_eur_per_year": 1800,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.0,
+    "country": "it",
+    "description_key": "benefit.it.assegno_unico.description",
+    "eligibility_key": "benefit.it.assegno_unico.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "it.assegno_unico.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_codice_fiscale",
+        "label_key": "it.assegno_unico.field.codice_fiscale",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "it.assegno_unico.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "num_children_minor",
+        "label_key": "it.assegno_unico.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "it.assegno_unico.help.children_dobs",
+        "key": "children_dobs",
+        "label_key": "it.assegno_unico.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "it.assegno_unico.help.children_codici",
+        "key": "children_codici_fiscali",
+        "label_key": "it.assegno_unico.field.children_codici",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "it.assegno_unico.help.isee_value",
+        "key": "isee_value",
+        "label_key": "it.assegno_unico.field.isee_value",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "isee_protocol_number",
+        "label_key": "it.assegno_unico.field.isee_protocol",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "custody_split",
+        "label_key": "it.assegno_unico.field.custody_split",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "parent_2_codice_fiscale",
+        "label_key": "it.assegno_unico.field.parent_2_codice",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "it.assegno_unico.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "it:assegno-unico",
+    "level": "country",
+    "official_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.it.assegno-unico-e-universale-per-i-figli-a-carico-50063.assegno-unico-e-universale-per-i-figli-a-carico.html",
+    "one_liner_key": "benefit.it.assegno_unico.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "assegno unico inps",
+      "assegno unico universale",
+      "assegno unico 2026",
+      "isee assegno unico",
+      "assegno unico domanda",
+      "assegno unico importo"
+    ],
+    "slug": "assegno-unico",
+    "title_english": "Universal single child allowance",
+    "title_native": "Assegno Unico e Universale per i figli"
+  },
+  {
+    "authority": "INPS (post ASL medical assessment)",
+    "avg_value_eur_per_year": 6800,
+    "complexity": 4,
+    "complexity_hours_estimated": 2.0,
+    "country": "it",
+    "description_key": "benefit.it.indennita.description",
+    "eligibility_key": "benefit.it.indennita.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "it.indennita.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_codice_fiscale",
+        "label_key": "it.indennita.field.codice_fiscale",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "it.indennita.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "it.indennita.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "disability_type",
+        "label_key": "it.indennita.field.disability_type",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "disability_started",
+        "label_key": "it.indennita.field.disability_started",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "treating_doctor_name",
+        "label_key": "it.indennita.field.treating_doctor",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "it.indennita.help.asl_certificate",
+        "key": "asl_certificate_present",
+        "label_key": "it.indennita.field.asl_certificate",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "care_dependency_level",
+        "label_key": "it.indennita.field.care_level",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "already_receives_other_pension",
+        "label_key": "it.indennita.field.other_pension",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "it.indennita.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "it:indennita-accompagnamento",
+    "level": "country",
+    "official_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.it.indennita-di-accompagnamento-per-invalidi-civili-50128.indennita-di-accompagnamento-per-invalidi-civili.html",
+    "one_liner_key": "benefit.it.indennita.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "indennita accompagnamento",
+      "invalidi civili inps",
+      "indennita accompagnamento 2026",
+      "domanda invalidità inps",
+      "accompagnamento legge 18",
+      "indennita accompagnamento importo"
+    ],
+    "slug": "indennita-accompagnamento",
+    "title_english": "Attendance allowance for civil disability",
+    "title_native": "Indennità di accompagnamento"
+  },
+  {
+    "authority": "INPS (Istituto Nazionale della Previdenza Sociale)",
+    "avg_value_eur_per_year": 8400,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.6,
+    "country": "it",
+    "description_key": "benefit.it.naspi.description",
+    "eligibility_key": "benefit.it.naspi.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "it.naspi.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "it.naspi.help.codice_fiscale",
+        "key": "applicant_codice_fiscale",
+        "label_key": "it.naspi.field.codice_fiscale",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "it.naspi.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "it.naspi.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "employment_end_date",
+        "label_key": "it.naspi.field.employment_end",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "last_employer_name",
+        "label_key": "it.naspi.field.last_employer",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "last_employer_partita_iva",
+        "label_key": "it.naspi.field.partita_iva",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "it.naspi.help.gross_avg",
+        "key": "monthly_gross_avg_last_4y",
+        "label_key": "it.naspi.field.gross_avg",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "reason_for_unemployment",
+        "label_key": "it.naspi.field.reason_unemployment",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "already_received_naspi_24m",
+        "label_key": "it.naspi.field.received_naspi_24m",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "spid_or_cie_id",
+        "label_key": "it.naspi.field.spid_id",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "it.naspi.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "it:naspi",
+    "level": "country",
+    "official_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.it.naspi-50276.naspi.html",
+    "one_liner_key": "benefit.it.naspi.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "naspi inps",
+      "domanda naspi",
+      "naspi requisiti",
+      "naspi calcolo",
+      "naspi 2026",
+      "disoccupazione naspi"
+    ],
+    "slug": "naspi",
+    "title_english": "Unemployment insurance (NASpI)",
+    "title_native": "NASpI"
+  }
+]

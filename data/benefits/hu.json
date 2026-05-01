@@ -1,0 +1,219 @@
+[
+  {
+    "authority": "Magyar Államkincstár (MÁK)",
+    "avg_value_eur_per_year": 350,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.6,
+    "country": "hu",
+    "description_key": "benefit.hu.csaladi.description",
+    "eligibility_key": "benefit.hu.csaladi.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "hu.csaladi.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "hu.csaladi.help.taj",
+        "key": "applicant_taj",
+        "label_key": "hu.csaladi.field.taj",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "hu.csaladi.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "num_children",
+        "label_key": "hu.csaladi.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "hu.csaladi.help.children_taj",
+        "key": "children_taj",
+        "label_key": "hu.csaladi.field.children_taj",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "children_dobs",
+        "label_key": "hu.csaladi.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "hu.csaladi.help.in_school",
+        "key": "children_in_school",
+        "label_key": "hu.csaladi.field.in_school",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "hu.csaladi.help.monoparental",
+        "key": "monoparental",
+        "label_key": "hu.csaladi.field.monoparental",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "custody_situation",
+        "label_key": "hu.csaladi.field.custody",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "parent_2_taj",
+        "label_key": "hu.csaladi.field.parent_2_taj",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "hu.csaladi.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "hu:csaladi-potlek",
+    "level": "country",
+    "official_url": "https://magyarallamkincstar.gov.hu/csaladi-potlek",
+    "one_liner_key": "benefit.hu.csaladi.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "családi pótlék",
+      "családi pótlék 2026",
+      "családi pótlék összege",
+      "csaladi potlek igénylés",
+      "magyar államkincstár családi pótlék",
+      "iskoláztatási támogatás"
+    ],
+    "slug": "csaladi-potlek",
+    "title_english": "Universal child allowance",
+    "title_native": "Családi pótlék"
+  },
+  {
+    "authority": "ONYF / Magyar Államkincstár",
+    "avg_value_eur_per_year": 7000,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.6,
+    "country": "hu",
+    "description_key": "benefit.hu.nyugdij.description",
+    "eligibility_key": "benefit.hu.nyugdij.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "hu.nyugdij.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_taj",
+        "label_key": "hu.nyugdij.field.taj",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "hu.nyugdij.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "hu.nyugdij.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "desired_pension_start",
+        "label_key": "hu.nyugdij.field.desired_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "hu.nyugdij.help.szolgalati_ido",
+        "key": "years_of_service",
+        "label_key": "hu.nyugdij.field.szolgalati_ido",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "years_worked_abroad",
+        "label_key": "hu.nyugdij.field.years_abroad",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "hu.nyugdij.help.children_raised",
+        "key": "number_of_children_raised",
+        "label_key": "hu.nyugdij.field.children_raised",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "currently_employed",
+        "label_key": "hu.nyugdij.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_gross_huf_last_year",
+        "label_key": "hu.nyugdij.field.gross_huf_last",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "ugyfelkapu_id",
+        "label_key": "hu.nyugdij.field.ugyfelkapu",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "hu.nyugdij.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "hu:nyugdij-oregsegi",
+    "level": "country",
+    "official_url": "https://onyf.allamkincstar.gov.hu/oregsegi-nyugdij",
+    "one_liner_key": "benefit.hu.nyugdij.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "öregségi nyugdíj",
+      "öregségi nyugdíj 2026",
+      "nyugdíjkorhatár",
+      "szolgálati idő nyugdíj",
+      "öregségi nyugdíj kalkulátor",
+      "nyugdíjigénylés ONYF"
+    ],
+    "slug": "nyugdij-oregsegi",
+    "title_english": "Old-age pension",
+    "title_native": "Öregségi nyugdíj"
+  }
+]

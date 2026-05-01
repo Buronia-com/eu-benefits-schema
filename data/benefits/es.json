@@ -1,0 +1,665 @@
+[
+  {
+    "authority": "Ministerio de Vivienda y Agenda Urbana",
+    "avg_value_eur_per_year": 3000,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.5,
+    "country": "es",
+    "description_key": "benefit.es.bono.description",
+    "eligibility_key": "benefit.es.bono.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "bono.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dni_nie",
+        "label_key": "bono.field.dni_nie",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "bono.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "bono.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "autonomous_community",
+        "label_key": "bono.field.ccaa",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_rent",
+        "label_key": "bono.field.rent",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "annual_gross_income",
+        "label_key": "bono.field.income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "employment_status",
+        "label_key": "bono.field.employment",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "bono.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "es:bono-alquiler-joven",
+    "level": "country",
+    "official_url": "https://www.mivau.gob.es/vivienda/alquila-bono-joven",
+    "one_liner_key": "benefit.es.bono.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "bono alquiler joven",
+      "ayuda alquiler joven",
+      "ayuda 250 euros joven",
+      "bono vivienda joven 2026",
+      "solicitar bono alquiler"
+    ],
+    "slug": "bono-alquiler-joven",
+    "title_english": "Youth rental voucher",
+    "title_native": "Bono Alquiler Joven"
+  },
+  {
+    "authority": "Instituto Nacional de la Seguridad Social (INSS)",
+    "avg_value_eur_per_year": 7248,
+    "complexity": 5,
+    "complexity_hours_estimated": 4.0,
+    "country": "es",
+    "description_key": "benefit.es.imv.description",
+    "eligibility_key": "benefit.es.imv.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "imv.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dni_nie",
+        "label_key": "imv.field.dni_nie",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "imv.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "imv.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "household_size",
+        "label_key": "imv.field.household_size",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "number_of_children",
+        "label_key": "imv.field.children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "annual_household_income",
+        "label_key": "imv.field.income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "household_assets_eur",
+        "label_key": "imv.field.assets",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "years_residing_in_spain",
+        "label_key": "imv.field.years_residing",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "imv.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "es:imv",
+    "level": "country",
+    "official_url": "https://imv.seg-social.es/",
+    "one_liner_key": "benefit.es.imv.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "ingreso mínimo vital",
+      "imv solicitar",
+      "imv 2026",
+      "imv cuantía",
+      "complemento ayuda infancia",
+      "imv unidad de convivencia"
+    ],
+    "slug": "imv",
+    "title_english": "Minimum living income (IMV)",
+    "title_native": "Ingreso Mínimo Vital"
+  },
+  {
+    "authority": "INSS / Mutua colaboradora",
+    "avg_value_eur_per_year": 4800,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.0,
+    "country": "es",
+    "description_key": "benefit.es.it.description",
+    "eligibility_key": "benefit.es.it.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "es.it.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dni_nie",
+        "label_key": "es.it.field.dni_nie",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "es.it.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "es.it.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "contingency_type",
+        "label_key": "es.it.field.contingency",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "baja_start_date",
+        "label_key": "es.it.field.baja_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "treating_doctor_name",
+        "label_key": "es.it.field.medico_cabecera",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "centro_salud",
+        "label_key": "es.it.field.centro_salud",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_gross_last_month",
+        "label_key": "es.it.field.gross_last_month",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "contribution_status",
+        "label_key": "es.it.field.contribution_status",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "employer_pays_complemento",
+        "label_key": "es.it.field.employer_complemento",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "es.it.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "es:incapacidad-temporal",
+    "level": "country",
+    "official_url": "https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/PrestacionesPensionesTrabajadores/10935",
+    "one_liner_key": "benefit.es.it.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "incapacidad temporal",
+      "baja medica seguridad social",
+      "subsidio incapacidad temporal",
+      "cobrar baja",
+      "it inss",
+      "baja medica 2026"
+    ],
+    "slug": "incapacidad-temporal",
+    "title_english": "Temporary incapacity (sickness benefit)",
+    "title_native": "Incapacidad temporal (IT)"
+  },
+  {
+    "authority": "IMSERSO + Comunidad Autónoma",
+    "avg_value_eur_per_year": 7610,
+    "complexity": 4,
+    "complexity_hours_estimated": 2.0,
+    "country": "es",
+    "description_key": "benefit.es.pnc.description",
+    "eligibility_key": "benefit.es.pnc.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "es.pnc.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "es.pnc.help.dni_nie",
+        "key": "applicant_dni_nie",
+        "label_key": "es.pnc.field.dni_nie",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "es.pnc.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "es.pnc.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "es.pnc.help.ccaa",
+        "key": "ccaa",
+        "label_key": "es.pnc.field.ccaa",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "es.pnc.help.subtype",
+        "key": "pnc_subtype",
+        "label_key": "es.pnc.field.subtype",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "es.pnc.help.years_residence",
+        "key": "years_residence_es",
+        "label_key": "es.pnc.field.years_residence",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "es.pnc.help.disability_grade",
+        "key": "disability_grade",
+        "label_key": "es.pnc.field.disability_grade",
+        "required": false,
+        "type": "select"
+      },
+      {
+        "help_key": "es.pnc.help.income",
+        "key": "annual_personal_income",
+        "label_key": "es.pnc.field.income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "household_situation",
+        "label_key": "es.pnc.field.household",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "partner_income",
+        "label_key": "es.pnc.field.partner_income",
+        "required": false,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "clave_id",
+        "label_key": "es.pnc.field.clave",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "es.pnc.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "es:pension-no-contributiva",
+    "level": "country",
+    "official_url": "https://www.imserso.es/imserso_01/prestaciones_y_subvenciones/pnc/index.htm",
+    "one_liner_key": "benefit.es.pnc.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "pensión no contributiva",
+      "pnc cuantía 2026",
+      "pensión no contributiva jubilación",
+      "pensión no contributiva invalidez",
+      "pnc requisitos",
+      "pnc solicitud",
+      "pnc complementos",
+      "pnc compatibilidad",
+      "pensión no contributiva imserso",
+      "pnc revisión anual",
+      "pnc ingresos"
+    ],
+    "slug": "pension-no-contributiva",
+    "title_english": "Non-contributory pension",
+    "title_native": "Pensión no contributiva (PNC)"
+  },
+  {
+    "authority": "INSS (Instituto Nacional de la Seguridad Social)",
+    "avg_value_eur_per_year": 9600,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.8,
+    "country": "es",
+    "description_key": "benefit.es.viudedad.description",
+    "eligibility_key": "benefit.es.viudedad.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "es.viudedad.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dni_nie",
+        "label_key": "es.viudedad.field.dni_nie",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "es.viudedad.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "es.viudedad.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "deceased_full_name",
+        "label_key": "es.viudedad.field.deceased_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "deceased_dni_nie",
+        "label_key": "es.viudedad.field.deceased_dni",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "deceased_date_of_death",
+        "label_key": "es.viudedad.field.death_date",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "relationship_type",
+        "label_key": "es.viudedad.field.relationship",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "es.viudedad.help.years_relationship",
+        "key": "years_of_marriage_or_pareja",
+        "label_key": "es.viudedad.field.years_relationship",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "dependent_children",
+        "label_key": "es.viudedad.field.dependents",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "own_pension_or_employment",
+        "label_key": "es.viudedad.field.own_income",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "annual_own_income",
+        "label_key": "es.viudedad.field.own_income_amount",
+        "required": false,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "es.viudedad.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "es:pension-viudedad",
+    "level": "country",
+    "official_url": "https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/PrestacionesPensionesTrabajadores/10963",
+    "one_liner_key": "benefit.es.viudedad.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "pension viudedad",
+      "solicitar pension viudedad",
+      "pension viudedad cuantia",
+      "pension viudedad 2026",
+      "viudedad inss",
+      "requisitos viudedad"
+    ],
+    "slug": "pension-viudedad",
+    "title_english": "Widow's / widower's pension",
+    "title_native": "Pensión de viudedad"
+  },
+  {
+    "authority": "SEPE (Servicio Público de Empleo Estatal)",
+    "avg_value_eur_per_year": 12000,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.5,
+    "country": "es",
+    "description_key": "benefit.es.desempleo.description",
+    "eligibility_key": "benefit.es.desempleo.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "es.desempleo.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "es.desempleo.help.dni_nie",
+        "key": "applicant_dni_nie",
+        "label_key": "es.desempleo.field.dni_nie",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "es.desempleo.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "es.desempleo.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "autonomous_community",
+        "label_key": "es.desempleo.field.ccaa",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "employment_end_date",
+        "label_key": "es.desempleo.field.employment_end",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "last_employer_name",
+        "label_key": "es.desempleo.field.last_employer",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "es.desempleo.help.gross_avg",
+        "key": "monthly_gross_avg_last_180d",
+        "label_key": "es.desempleo.field.gross_avg",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "es.desempleo.help.cotizacion_days",
+        "key": "contribution_days_last_6y",
+        "label_key": "es.desempleo.field.cotizacion_days",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "reason_for_unemployment",
+        "label_key": "es.desempleo.field.reason",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "dependent_children_under_26",
+        "label_key": "es.desempleo.field.dependents",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "clave_or_certificado_id",
+        "label_key": "es.desempleo.field.clave_id",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "es.desempleo.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "es:prestacion-desempleo",
+    "level": "country",
+    "official_url": "https://www.sepe.es/HomeSepe/Personas/distributiva-prestaciones/quiero-cobrar-el-paro/cuantia-duracion.html",
+    "one_liner_key": "benefit.es.desempleo.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "prestacion desempleo sepe",
+      "paro contributivo",
+      "solicitud paro",
+      "cuantia paro",
+      "duracion paro",
+      "prestacion desempleo 2026",
+      "cobrar el paro"
+    ],
+    "slug": "prestacion-desempleo",
+    "title_english": "Contributory unemployment benefit",
+    "title_native": "Prestación contributiva por desempleo"
+  }
+]

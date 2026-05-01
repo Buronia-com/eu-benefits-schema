@@ -1,0 +1,219 @@
+[
+  {
+    "authority": "Úřad práce ČR",
+    "avg_value_eur_per_year": 15000,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.0,
+    "country": "cz",
+    "description_key": "benefit.cz.rodicovsky.description",
+    "eligibility_key": "benefit.cz.rodicovsky.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "cz.rodicovsky.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "cz.rodicovsky.help.rodne_cislo",
+        "key": "applicant_rodne_cislo",
+        "label_key": "cz.rodicovsky.field.rodne_cislo",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "cz.rodicovsky.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "child_rodne_cislo",
+        "label_key": "cz.rodicovsky.field.child_rodne_cislo",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "child_dob",
+        "label_key": "cz.rodicovsky.field.child_dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "cz.rodicovsky.help.monthly_amount",
+        "key": "monthly_drawdown_amount",
+        "label_key": "cz.rodicovsky.field.monthly_amount",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "cz.rodicovsky.help.period_months",
+        "key": "desired_drawdown_period_months",
+        "label_key": "cz.rodicovsky.field.period_months",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "had_maternity_leave",
+        "label_key": "cz.rodicovsky.field.had_maternity",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "cz.rodicovsky.help.daily_base",
+        "key": "daily_assessment_base_pre_birth",
+        "label_key": "cz.rodicovsky.field.daily_base",
+        "required": false,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "parent_2_rodne_cislo",
+        "label_key": "cz.rodicovsky.field.parent_2_rodne",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "cz.rodicovsky.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "cz:rodicovsky-prispevek",
+    "level": "country",
+    "official_url": "https://www.uradprace.cz/web/cz/rodicovsky-prispevek",
+    "one_liner_key": "benefit.cz.rodicovsky.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "rodičovský příspěvek",
+      "rodičovská 350 000",
+      "rodičovský příspěvek 2026",
+      "úřad práce rodičovská",
+      "žádost rodičovský příspěvek",
+      "elternzeit tschechien"
+    ],
+    "slug": "rodicovsky-prispevek",
+    "title_english": "Parental allowance",
+    "title_native": "Rodičovský příspěvek"
+  },
+  {
+    "authority": "ČSSZ (Česká správa sociálního zabezpečení)",
+    "avg_value_eur_per_year": 9000,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.6,
+    "country": "cz",
+    "description_key": "benefit.cz.starobni.description",
+    "eligibility_key": "benefit.cz.starobni.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "cz.starobni.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_rodne_cislo",
+        "label_key": "cz.starobni.field.rodne_cislo",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "cz.starobni.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "cz.starobni.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "desired_pension_start",
+        "label_key": "cz.starobni.field.desired_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "cz.starobni.help.years_insurance",
+        "key": "years_of_insurance",
+        "label_key": "cz.starobni.field.years_insurance",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "years_worked_abroad",
+        "label_key": "cz.starobni.field.years_abroad",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "currently_employed",
+        "label_key": "cz.starobni.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_gross_czk_last_year",
+        "label_key": "cz.starobni.field.gross_czk_last",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "cz.starobni.help.demanding_jobs",
+        "key": "worked_in_demanding_jobs",
+        "label_key": "cz.starobni.field.demanding_jobs",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "portal_cssz_login",
+        "label_key": "cz.starobni.field.portal_login",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "cz.starobni.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "cz:starobni-duchod",
+    "level": "country",
+    "official_url": "https://www.cssz.cz/web/cz/starobni-duchod",
+    "one_liner_key": "benefit.cz.starobni.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "starobní důchod čssz",
+      "starobní důchod 2026",
+      "důchodový věk česko",
+      "doba pojištění starobní",
+      "žádost o starobní důchod",
+      "kalkulačka důchodu čssz"
+    ],
+    "slug": "starobni-duchod",
+    "title_english": "Old-age pension",
+    "title_native": "Starobní důchod"
+  }
+]

@@ -1,0 +1,1712 @@
+[
+  {
+    "authority": "Sodra (specialiųjų pensijų skyrius)",
+    "avg_value_eur_per_year": 1716,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.1,
+    "country": "lt",
+    "description_key": "benefit.lt.antrojo-laipsnio-pensija.description",
+    "eligibility_key": "benefit.lt.antrojo-laipsnio-pensija.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lt.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "lt.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "lt.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lt.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "eligibility_basis",
+        "label_key": "lt.field.aspd_basis",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "number_of_children_raised",
+        "label_key": "lt.field.children_raised",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "supporting_documentation",
+        "label_key": "lt.field.aspd_supporting_docs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lt.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lt:antrojo-laipsnio-pensija",
+    "level": "country",
+    "official_url": "https://www.sodra.lt/lt/antrojo_laipsnio_valstybine_pensija",
+    "one_liner_key": "benefit.lt.antrojo-laipsnio-pensija.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "antrojo laipsnio pensija",
+      "motinos pensija",
+      "5 vaikai pensija",
+      "valstybinė antrojo laipsnio pensija",
+      "tevams uz vaikus pensija"
+    ],
+    "slug": "antrojo-laipsnio-pensija",
+    "title_english": "Second-degree state pension (motherhood / merit)",
+    "title_native": "Antrojo laipsnio valstybinė pensija"
+  },
+  {
+    "authority": "Sodra + Užimtumo tarnyba",
+    "avg_value_eur_per_year": 4200,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.2,
+    "country": "lt",
+    "description_key": "benefit.lt.bedarbio-ismoka.description",
+    "eligibility_key": "benefit.lt.bedarbio-ismoka.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lt.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "lt.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lt.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "last_employer",
+        "label_key": "lt.field.last_employer",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "last_day_at_work",
+        "label_key": "lt.field.last_day_at_work",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "reason_for_leaving",
+        "label_key": "lt.field.reason_for_leaving",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "lt.help.insured_months",
+        "key": "insured_months_last_30",
+        "label_key": "lt.field.insured_months",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "lt.help.registered_with_uzt",
+        "key": "registered_with_uzt",
+        "label_key": "lt.field.registered_with_uzt",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lt.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lt:bedarbio-ismoka",
+    "level": "country",
+    "official_url": "https://www.sodra.lt/lt/bedarbio_ismoka",
+    "one_liner_key": "benefit.lt.bedarbio-ismoka.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "bedarbio išmoka",
+      "nedarbo išmoka",
+      "uzimtumo tarnyba",
+      "kaip gauti bedarbio pasalpa",
+      "nedarbo socialinis draudimas"
+    ],
+    "slug": "bedarbio-ismoka",
+    "title_english": "Unemployment social-insurance benefit",
+    "title_native": "Nedarbo socialinio draudimo išmoka"
+  },
+  {
+    "authority": "Savivaldybės socialinės paramos skyrius",
+    "avg_value_eur_per_year": 720,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.2,
+    "country": "lt",
+    "description_key": "benefit.lt.busto.description",
+    "eligibility_key": "benefit.lt.busto.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "busto.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "busto.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "busto.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "household_size",
+        "label_key": "busto.field.household_size",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_household_income",
+        "label_key": "busto.field.income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "dwelling_area_sqm",
+        "label_key": "busto.field.area_sqm",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "heating_cost_last_winter",
+        "label_key": "busto.field.heating_cost",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "busto.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lt:busto-kompensacija",
+    "level": "country",
+    "official_url": "https://socmin.lrv.lt/lt/veiklos-sritys/socialine-parama/pinigine-socialine-parama/busto-sildymo-islaidu-kompensacija",
+    "one_liner_key": "benefit.lt.busto.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "būsto kompensacija",
+      "šildymo kompensacija",
+      "busto sildymo kompensacija",
+      "savivaldybės parama",
+      "kompensacija 2026"
+    ],
+    "slug": "busto-kompensacija",
+    "title_english": "Heating-cost compensation",
+    "title_native": "Būsto šildymo išlaidų kompensacija"
+  },
+  {
+    "authority": "Savivaldybės socialinės paramos skyrius",
+    "avg_value_eur_per_year": 4800,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.2,
+    "country": "lt",
+    "description_key": "benefit.lt.globos-ismoka.description",
+    "eligibility_key": "benefit.lt.globos-ismoka.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lt.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "lt.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lt.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "ward_full_name",
+        "label_key": "lt.field.ward_full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "ward_personal_code",
+        "label_key": "lt.field.ward_personal_code",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "ward_dob",
+        "label_key": "lt.field.ward_dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "guardianship_type",
+        "label_key": "lt.field.guardianship_type",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "guardianship_decision_date",
+        "label_key": "lt.field.guardianship_decision_date",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lt.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lt:globos-ismoka",
+    "level": "country",
+    "official_url": "https://socmin.lrv.lt/lt/veiklos-sritys/seimos-ir-vaiku-teises/vaiko-globa",
+    "one_liner_key": "benefit.lt.globos-ismoka.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "globos išmoka",
+      "globos rupybos ismoka",
+      "vaiko globa",
+      "globotinio ismoka",
+      "globejui parama"
+    ],
+    "slug": "globos-ismoka",
+    "title_english": "Guardianship / foster-care benefit",
+    "title_native": "Globos (rūpybos) išmoka"
+  },
+  {
+    "authority": "Užimtumo tarnyba (UT)",
+    "avg_value_eur_per_year": 3600,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.2,
+    "country": "lt",
+    "description_key": "benefit.lt.idarbinimo-skatinimas.description",
+    "eligibility_key": "benefit.lt.idarbinimo-skatinimas.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lt.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "lt.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lt.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "registered_with_uzt",
+        "label_key": "lt.field.registered_with_uzt",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "registered_since",
+        "label_key": "lt.field.registered_since",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "priority_group",
+        "label_key": "lt.field.uzt_priority_group",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "desired_measure",
+        "label_key": "lt.field.uzt_measure",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "contact_phone",
+        "label_key": "lt.field.contact_phone",
+        "required": true,
+        "type": "text"
+      }
+    ],
+    "key": "lt:idarbinimo-skatinimas",
+    "level": "country",
+    "official_url": "https://uzt.lt/darbo-ieskantiems/idarbinimo-skatinimo-priemones/",
+    "one_liner_key": "benefit.lt.idarbinimo-skatinimas.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "įdarbinimo skatinimas",
+      "idarbinimo skatinimas",
+      "užimtumo tarnyba parama",
+      "subsidija darbdaviui",
+      "stažuote uzimtumo tarnyba"
+    ],
+    "slug": "idarbinimo-skatinimas",
+    "title_english": "Employment-incentive support",
+    "title_native": "Įdarbinimo skatinimas"
+  },
+  {
+    "authority": "Savivaldybės socialinės paramos skyrius",
+    "avg_value_eur_per_year": 400,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.6,
+    "country": "lt",
+    "description_key": "benefit.lt.laidojimo-pasalpa.description",
+    "eligibility_key": "benefit.lt.laidojimo-pasalpa.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lt.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "lt.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lt.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "deceased_full_name",
+        "label_key": "lt.field.deceased_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "deceased_personal_code",
+        "label_key": "lt.field.deceased_code",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "date_of_death",
+        "label_key": "lt.field.date_of_death",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "relationship_to_deceased",
+        "label_key": "lt.field.relationship",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "lt.help.burial_costs_covered",
+        "key": "burial_costs_covered",
+        "label_key": "lt.field.burial_costs_covered",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lt.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lt:laidojimo-pasalpa",
+    "level": "country",
+    "official_url": "https://socmin.lrv.lt/lt/veiklos-sritys/socialine-parama/pinigine-socialine-parama/laidojimo-pasalpa",
+    "one_liner_key": "benefit.lt.laidojimo-pasalpa.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "laidojimo pašalpa",
+      "laidojimo pasalpa",
+      "vienkartinė laidojimo išmoka",
+      "savivaldybės laidojimo pasalpa",
+      "laidotuviu kompensacija"
+    ],
+    "slug": "laidojimo-pasalpa",
+    "title_english": "Funeral grant",
+    "title_native": "Laidojimo pašalpa"
+  },
+  {
+    "authority": "Sodra",
+    "avg_value_eur_per_year": 900,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.8,
+    "country": "lt",
+    "description_key": "benefit.lt.ligos-pasalpa.description",
+    "eligibility_key": "benefit.lt.ligos-pasalpa.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lt.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "lt.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lt.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "lt.help.e_certificate",
+        "key": "e_certificate_number",
+        "label_key": "lt.field.e_certificate",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "incapacity_start_date",
+        "label_key": "lt.field.incapacity_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "incapacity_reason",
+        "label_key": "lt.field.incapacity_reason",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "employer_name",
+        "label_key": "lt.field.employer_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lt.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lt:ligos-pasalpa",
+    "level": "country",
+    "official_url": "https://www.sodra.lt/lt/ligos_pasalpa",
+    "one_liner_key": "benefit.lt.ligos-pasalpa.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "ligos pašalpa",
+      "ligos pasalpa",
+      "nedarbingumo pažymėjimas",
+      "sodra ligos ismoka",
+      "kiek moka uz nedarbingumo lapeli"
+    ],
+    "slug": "ligos-pasalpa",
+    "title_english": "Sickness benefit",
+    "title_native": "Ligos pašalpa"
+  },
+  {
+    "authority": "Savivaldybės socialinės paramos skyrius (mokyklos)",
+    "avg_value_eur_per_year": 600,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.6,
+    "country": "lt",
+    "description_key": "benefit.lt.mokinio-nemokamas-maitinimas.description",
+    "eligibility_key": "benefit.lt.mokinio-nemokamas-maitinimas.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lt.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "lt.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lt.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "school_name",
+        "label_key": "lt.field.school_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "pupil_full_name",
+        "label_key": "lt.field.pupil_full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "pupil_personal_code",
+        "label_key": "lt.field.pupil_personal_code",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "pupil_class",
+        "label_key": "lt.field.pupil_class",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "eligibility_basis",
+        "label_key": "lt.field.school_meal_basis",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_household_income",
+        "label_key": "lt.field.income",
+        "required": false,
+        "type": "money"
+      }
+    ],
+    "key": "lt:mokinio-nemokamas-maitinimas",
+    "level": "country",
+    "official_url": "https://socmin.lrv.lt/lt/veiklos-sritys/socialine-parama/parama-mokiniams",
+    "one_liner_key": "benefit.lt.mokinio-nemokamas-maitinimas.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "nemokamas maitinimas",
+      "mokinio nemokamas maitinimas",
+      "nemokami pietūs mokykloje",
+      "parama mokiniams",
+      "1-2 klasės maitinimas"
+    ],
+    "slug": "mokinio-nemokamas-maitinimas",
+    "title_english": "Free school meals",
+    "title_native": "Mokinio nemokamas maitinimas"
+  },
+  {
+    "authority": "Sodra",
+    "avg_value_eur_per_year": 8400,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.0,
+    "country": "lt",
+    "description_key": "benefit.lt.motinystes-pasalpa.description",
+    "eligibility_key": "benefit.lt.motinystes-pasalpa.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lt.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "lt.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lt.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "expected_due_date",
+        "label_key": "lt.field.expected_due_date",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "e_certificate_number",
+        "label_key": "lt.field.e_certificate",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "employer_name",
+        "label_key": "lt.field.employer_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "insured_months_last_24",
+        "label_key": "lt.field.insured_months_24",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lt.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lt:motinystes-pasalpa",
+    "level": "country",
+    "official_url": "https://www.sodra.lt/lt/motinystes_pasalpa",
+    "one_liner_key": "benefit.lt.motinystes-pasalpa.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "motinystės pašalpa",
+      "motinystes pasalpa",
+      "nėštumo ir gimdymo atostogos",
+      "sodra motinystes pasalpa",
+      "motinyste 2026"
+    ],
+    "slug": "motinystes-pasalpa",
+    "title_english": "Maternity benefit",
+    "title_native": "Motinystės pašalpa"
+  },
+  {
+    "authority": "Sodra + NDNT (Neįgalumo ir darbingumo nustatymo tarnyba)",
+    "avg_value_eur_per_year": 4800,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.8,
+    "country": "lt",
+    "description_key": "benefit.lt.negalios-pensija.description",
+    "eligibility_key": "benefit.lt.negalios-pensija.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lt.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "lt.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lt.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "lt.help.ndnt_decision_date",
+        "key": "ndnt_decision_date",
+        "label_key": "lt.field.ndnt_decision_date",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "ndnt_capacity_level",
+        "label_key": "lt.field.ndnt_capacity_level",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "primary_diagnosis",
+        "label_key": "lt.field.primary_diagnosis",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "treating_doctor",
+        "label_key": "lt.field.treating_doctor",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "currently_employed",
+        "label_key": "lt.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lt.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lt:negalios-pensija",
+    "level": "country",
+    "official_url": "https://www.sodra.lt/lt/neigaliuju_pensija",
+    "one_liner_key": "benefit.lt.negalios-pensija.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "negalios pensija",
+      "netekto darbingumo pensija",
+      "ndnt",
+      "neįgaliojo pensija",
+      "darbingumas nustatymas"
+    ],
+    "slug": "negalios-pensija",
+    "title_english": "Disability (lost work-capacity) pension",
+    "title_native": "Netekto darbingumo pensija"
+  },
+  {
+    "authority": "Sodra",
+    "avg_value_eur_per_year": 2400,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.1,
+    "country": "lt",
+    "description_key": "benefit.lt.salpos-pensija.description",
+    "eligibility_key": "benefit.lt.salpos-pensija.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lt.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "lt.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "lt.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lt.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "ground_for_assistance",
+        "label_key": "lt.field.assistance_ground",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "contributory_pension_eligible",
+        "label_key": "lt.field.contributory_eligible",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_household_income",
+        "label_key": "lt.field.income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lt.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lt:salpos-pensija",
+    "level": "country",
+    "official_url": "https://www.sodra.lt/lt/salpos_pensija",
+    "one_liner_key": "benefit.lt.salpos-pensija.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "šalpos pensija",
+      "salpos pensija",
+      "šalpos išmoka",
+      "neigaliojo salpos pensija",
+      "be staza pensija"
+    ],
+    "slug": "salpos-pensija",
+    "title_english": "Assistance (non-contributory) pension",
+    "title_native": "Šalpos pensija"
+  },
+  {
+    "authority": "Socialinės apsaugos ir darbo ministerija (SADM)",
+    "avg_value_eur_per_year": 240,
+    "complexity": 1,
+    "complexity_hours_estimated": 0.4,
+    "country": "lt",
+    "description_key": "benefit.lt.seimos-kortele.description",
+    "eligibility_key": "benefit.lt.seimos-kortele.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lt.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "lt.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lt.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "eligibility_basis",
+        "label_key": "lt.field.family_card_basis",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "number_of_children",
+        "label_key": "lt.field.number_of_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "contact_phone",
+        "label_key": "lt.field.contact_phone",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "contact_email",
+        "label_key": "lt.field.contact_email",
+        "required": true,
+        "type": "text"
+      }
+    ],
+    "key": "lt:seimos-kortele",
+    "level": "country",
+    "official_url": "https://socmin.lrv.lt/lt/veiklos-sritys/socialine-parama/seimoms-su-vaikais/seimos-kortele",
+    "one_liner_key": "benefit.lt.seimos-kortele.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "šeimos kortelė",
+      "seimos kortele",
+      "daugiavaikių kortelė",
+      "nuolaidos šeimoms",
+      "kortelė neįgaliesiems"
+    ],
+    "slug": "seimos-kortele",
+    "title_english": "Family card",
+    "title_native": "Šeimos kortelė"
+  },
+  {
+    "authority": "Sodra",
+    "avg_value_eur_per_year": 6600,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.6,
+    "country": "lt",
+    "description_key": "benefit.lt.senatves-pensija.description",
+    "eligibility_key": "benefit.lt.senatves-pensija.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lt.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "lt.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "lt.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lt.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "lt.help.insurance_years",
+        "key": "total_insurance_years",
+        "label_key": "lt.field.insurance_years",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "currently_employed",
+        "label_key": "lt.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "lt.help.worked_abroad",
+        "key": "worked_abroad",
+        "label_key": "lt.field.worked_abroad",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "foreign_pension_received",
+        "label_key": "lt.field.foreign_pension",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lt.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lt:senatves-pensija",
+    "level": "country",
+    "official_url": "https://www.sodra.lt/lt/senatves_pensija",
+    "one_liner_key": "benefit.lt.senatves-pensija.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "senatvės pensija",
+      "senatves pensija",
+      "pensijos amžius lietuvoje",
+      "sodra pensija 2026",
+      "kaip gauti senatves pensija"
+    ],
+    "slug": "senatves-pensija",
+    "title_english": "Old-age (state) pension",
+    "title_native": "Senatvės pensija"
+  },
+  {
+    "authority": "Sodra (tikslinė kompensacija)",
+    "avg_value_eur_per_year": 3300,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.4,
+    "country": "lt",
+    "description_key": "benefit.lt.slaugos-pasalpa.description",
+    "eligibility_key": "benefit.lt.slaugos-pasalpa.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lt.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "lt.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lt.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "care_recipient_name",
+        "label_key": "lt.field.care_recipient_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "care_recipient_personal_code",
+        "label_key": "lt.field.care_recipient_code",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "care_type",
+        "label_key": "lt.field.care_type",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "ndnt_decision_date",
+        "label_key": "lt.field.ndnt_decision_date",
+        "required": false,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "relationship",
+        "label_key": "lt.field.relationship",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lt.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lt:slaugos-pasalpa",
+    "level": "country",
+    "official_url": "https://www.sodra.lt/lt/tiksline_kompensacija",
+    "one_liner_key": "benefit.lt.slaugos-pasalpa.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "slaugos pašalpa",
+      "tikslinė kompensacija",
+      "neįgaliojo slauga",
+      "priežiūra namuose",
+      "kompensacija slaugai"
+    ],
+    "slug": "slaugos-pasalpa",
+    "title_english": "Targeted-care compensation (caregiver allowance)",
+    "title_native": "Tikslinė kompensacija (slauga / priežiūra)"
+  },
+  {
+    "authority": "Savivaldybės socialinės paramos skyrius",
+    "avg_value_eur_per_year": 1800,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.0,
+    "country": "lt",
+    "description_key": "benefit.lt.socialine-pasalpa.description",
+    "eligibility_key": "benefit.lt.socialine-pasalpa.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lt.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "lt.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lt.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "household_size",
+        "label_key": "lt.field.household_size",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_household_income",
+        "label_key": "lt.field.income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "employment_status",
+        "label_key": "lt.field.employment_status",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lt.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lt:socialine-pasalpa",
+    "level": "country",
+    "official_url": "https://socmin.lrv.lt/lt/veiklos-sritys/socialine-parama/pinigine-socialine-parama/socialine-pasalpa",
+    "one_liner_key": "benefit.lt.socialine-pasalpa.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "socialinė pašalpa",
+      "socialine pasalpa",
+      "savivaldybės parama",
+      "pasalpa nepasiturintiems",
+      "socialinė parama 2026"
+    ],
+    "slug": "socialine-pasalpa",
+    "title_english": "Cash social assistance",
+    "title_native": "Socialinė pašalpa"
+  },
+  {
+    "authority": "Valstybinis studijų fondas (VSF)",
+    "avg_value_eur_per_year": 1872,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.7,
+    "country": "lt",
+    "description_key": "benefit.lt.studento-socialine-stipendija.description",
+    "eligibility_key": "benefit.lt.studento-socialine-stipendija.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lt.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "lt.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lt.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "university_name",
+        "label_key": "lt.field.university_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "study_program",
+        "label_key": "lt.field.study_program",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "study_year",
+        "label_key": "lt.field.study_year",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "hardship_basis",
+        "label_key": "lt.field.hardship_basis",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_household_income",
+        "label_key": "lt.field.income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lt.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lt:studento-socialine-stipendija",
+    "level": "country",
+    "official_url": "https://vsf.lrv.lt/lt/veiklos-sritys/socialines-stipendijos",
+    "one_liner_key": "benefit.lt.studento-socialine-stipendija.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "socialinė stipendija",
+      "studento stipendija",
+      "vsf stipendija",
+      "socialine stipendija 156",
+      "kaip gauti studento stipendija"
+    ],
+    "slug": "studento-socialine-stipendija",
+    "title_english": "Student social stipend",
+    "title_native": "Studento socialinė stipendija"
+  },
+  {
+    "authority": "Sodra",
+    "avg_value_eur_per_year": 2300,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.7,
+    "country": "lt",
+    "description_key": "benefit.lt.tevystes-pasalpa.description",
+    "eligibility_key": "benefit.lt.tevystes-pasalpa.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lt.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "lt.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lt.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "child_dob",
+        "label_key": "lt.field.child_dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "child_personal_code",
+        "label_key": "lt.field.child_personal_code",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "employer_name",
+        "label_key": "lt.field.employer_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "requested_start_date",
+        "label_key": "lt.field.requested_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lt.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lt:tevystes-pasalpa",
+    "level": "country",
+    "official_url": "https://www.sodra.lt/lt/tevystes_pasalpa",
+    "one_liner_key": "benefit.lt.tevystes-pasalpa.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "tėvystės pašalpa",
+      "tevystes pasalpa",
+      "tėvystės atostogos",
+      "sodra tevystes pasalpa",
+      "tevams 30 dienu"
+    ],
+    "slug": "tevystes-pasalpa",
+    "title_english": "Paternity benefit",
+    "title_native": "Tėvystės pašalpa"
+  },
+  {
+    "authority": "Sodra (Valstybinio socialinio draudimo fondo valdyba)",
+    "avg_value_eur_per_year": 1080,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.7,
+    "country": "lt",
+    "description_key": "benefit.lt.vaiko-pinigai.description",
+    "eligibility_key": "benefit.lt.vaiko-pinigai.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lt.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "lt.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lt.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "number_of_children",
+        "label_key": "lt.field.number_of_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "lt.help.children_dobs",
+        "key": "children_dobs",
+        "label_key": "lt.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "lt.help.large_family",
+        "key": "large_family",
+        "label_key": "lt.field.large_family",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "low_income_household",
+        "label_key": "lt.field.low_income",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lt.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lt:vaiko-pinigai",
+    "level": "country",
+    "official_url": "https://socmin.lrv.lt/lt/veiklos-sritys/socialine-parama/seimoms-su-vaikais/vaiko-pinigai",
+    "one_liner_key": "benefit.lt.vaiko-pinigai.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "vaiko pinigai",
+      "vaiko pinigai 2026",
+      "universali iÅ¡moka vaikui",
+      "vaiko pinigai sodra",
+      "vaikÅ³ piniginÄ— iÅ¡moka"
+    ],
+    "slug": "vaiko-pinigai",
+    "title_english": "Universal child allowance",
+    "title_native": "Vaiko pinigai"
+  },
+  {
+    "authority": "Sodra",
+    "avg_value_eur_per_year": 10800,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.0,
+    "country": "lt",
+    "description_key": "benefit.lt.vaiko-prieziuros-ismoka.description",
+    "eligibility_key": "benefit.lt.vaiko-prieziuros-ismoka.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lt.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "lt.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lt.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "child_dob",
+        "label_key": "lt.field.child_dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "child_personal_code",
+        "label_key": "lt.field.child_personal_code",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "requested_duration",
+        "label_key": "lt.field.requested_duration",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "employer_name",
+        "label_key": "lt.field.employer_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "partner_taking_leave",
+        "label_key": "lt.field.partner_taking_leave",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lt.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lt:vaiko-prieziuros-ismoka",
+    "level": "country",
+    "official_url": "https://www.sodra.lt/lt/vaiko_prieziuros_ismoka",
+    "one_liner_key": "benefit.lt.vaiko-prieziuros-ismoka.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "vaiko priežiūros išmoka",
+      "vaiko prieziuros ismoka",
+      "vaiko priežiūros atostogos",
+      "iki 2 metų išmoka",
+      "iki 1 metų išmoka 77,58",
+      "sodra vaiko prieziura"
+    ],
+    "slug": "vaiko-prieziuros-ismoka",
+    "title_english": "Childcare-leave benefit",
+    "title_native": "Vaiko priežiūros išmoka"
+  },
+  {
+    "authority": "Savivaldybės socialinės paramos skyrius",
+    "avg_value_eur_per_year": 572,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.5,
+    "country": "lt",
+    "description_key": "benefit.lt.vienkartine-ismoka-vaikui.description",
+    "eligibility_key": "benefit.lt.vienkartine-ismoka-vaikui.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lt.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personal_code",
+        "label_key": "lt.field.asmens_kodas",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lt.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "child_full_name",
+        "label_key": "lt.field.child_full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "child_personal_code",
+        "label_key": "lt.field.child_personal_code",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "child_dob",
+        "label_key": "lt.field.child_dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "relationship",
+        "label_key": "lt.field.relationship",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lt.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lt:vienkartine-ismoka-vaikui",
+    "level": "country",
+    "official_url": "https://socmin.lrv.lt/lt/veiklos-sritys/socialine-parama/seimoms-su-vaikais/vienkartine-ismoka-gimus-vaikui",
+    "one_liner_key": "benefit.lt.vienkartine-ismoka-vaikui.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "vienkartinė išmoka vaikui",
+      "vienkartine ismoka",
+      "išmoka už gimusį vaiką",
+      "naujagimio pasalpa",
+      "11 bsi vaiko ismoka"
+    ],
+    "slug": "vienkartine-ismoka-vaikui",
+    "title_english": "One-off birth grant",
+    "title_native": "Vienkartinė išmoka gimus vaikui"
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "authority": "ÚPSVaR (Úrad práce, sociálnych vecí a rodiny)",
+    "avg_value_eur_per_year": 4080,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.7,
+    "country": "sk",
+    "description_key": "benefit.sk.rodicovsky.description",
+    "eligibility_key": "benefit.sk.rodicovsky.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "sk.rodicovsky.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "sk.rodicovsky.help.rc",
+        "key": "applicant_rc",
+        "label_key": "sk.rodicovsky.field.rc",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "sk.rodicovsky.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "sk.rodicovsky.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "child_full_name",
+        "label_key": "sk.rodicovsky.field.child_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "sk.rodicovsky.help.child_rc",
+        "key": "child_rc",
+        "label_key": "sk.rodicovsky.field.child_rc",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "child_dob",
+        "label_key": "sk.rodicovsky.field.child_dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "sk.rodicovsky.help.higher_rate",
+        "key": "higher_rate_claim",
+        "label_key": "sk.rodicovsky.field.higher_rate",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "sk.rodicovsky.help.had_materska",
+        "key": "prior_maternity_benefit",
+        "label_key": "sk.rodicovsky.field.had_materska",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "partner_employed",
+        "label_key": "sk.rodicovsky.field.partner_employed",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "sk.rodicovsky.help.child_disability",
+        "key": "child_disability",
+        "label_key": "sk.rodicovsky.field.child_disability",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "custody_situation",
+        "label_key": "sk.rodicovsky.field.custody",
+        "required": false,
+        "type": "select"
+      },
+      {
+        "help_key": "sk.rodicovsky.help.eid",
+        "key": "eid_login",
+        "label_key": "sk.rodicovsky.field.eid",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "sk.rodicovsky.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "sk:rodicovsky-prispevok",
+    "level": "country",
+    "official_url": "https://www.upsvr.gov.sk/socialne-veci-a-rodina/socialne-davky-/rodicovsky-prispevok.html",
+    "one_liner_key": "benefit.sk.rodicovsky.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "rodičovský príspevok",
+      "rodičák",
+      "rodičovský príspevok 2026",
+      "rodičovský príspevok ÚPSVaR",
+      "materská a rodičák",
+      "rodičovský príspevok výška",
+      "žiadosť rodičovský príspevok"
+    ],
+    "slug": "rodicovsky-prispevok",
+    "title_english": "Parental allowance",
+    "title_native": "Rodičovský príspevok"
+  },
+  {
+    "authority": "Sociálna poisťovňa (SP)",
+    "avg_value_eur_per_year": 7800,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.5,
+    "country": "sk",
+    "description_key": "benefit.sk.starobny.description",
+    "eligibility_key": "benefit.sk.starobny.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "sk.starobny.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "sk.starobny.help.rc",
+        "key": "applicant_rc",
+        "label_key": "sk.starobny.field.rc",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "sk.starobny.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "sk.starobny.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "sk.starobny.help.desired_start",
+        "key": "desired_pension_start",
+        "label_key": "sk.starobny.field.desired_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "sk.starobny.help.years_sk",
+        "key": "years_insured_sk",
+        "label_key": "sk.starobny.field.years_sk",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "sk.starobny.help.years_abroad",
+        "key": "years_insured_abroad",
+        "label_key": "sk.starobny.field.years_abroad",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "foreign_countries_worked",
+        "label_key": "sk.starobny.field.foreign_countries",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "sk.starobny.help.children_raised",
+        "key": "number_of_children_raised",
+        "label_key": "sk.starobny.field.children_raised",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "sk.starobny.help.dss",
+        "key": "dispense_second_pillar",
+        "label_key": "sk.starobny.field.dss",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "sk.starobny.help.currently_employed",
+        "key": "currently_employed",
+        "label_key": "sk.starobny.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "eid_login",
+        "label_key": "sk.starobny.field.eid",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "sk.starobny.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "sk:starobny-dochodok",
+    "level": "country",
+    "official_url": "https://www.socpoist.sk/dochodok/starobny-dochodok",
+    "one_liner_key": "benefit.sk.starobny.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "starobný dôchodok",
+      "dôchodok 2026",
+      "dôchodkový vek",
+      "Sociálna poisťovňa dôchodok",
+      "žiadosť o starobný dôchodok",
+      "predčasný starobný dôchodok",
+      "valorizácia dôchodkov",
+      "13. dôchodok 2026"
+    ],
+    "slug": "starobny-dochodok",
+    "title_english": "Old-age pension",
+    "title_native": "Starobný dôchodok"
+  }
+]

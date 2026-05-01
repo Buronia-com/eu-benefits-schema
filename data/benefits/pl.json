@@ -1,0 +1,317 @@
+[
+  {
+    "authority": "ZUS (Zakład Ubezpieczeń Społecznych)",
+    "avg_value_eur_per_year": 8400,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.6,
+    "country": "pl",
+    "description_key": "benefit.pl.emerytura.description",
+    "eligibility_key": "benefit.pl.emerytura.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "pl.emerytura.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_pesel",
+        "label_key": "pl.emerytura.field.pesel",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "pl.emerytura.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "pl.emerytura.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "desired_pension_start",
+        "label_key": "pl.emerytura.field.desired_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "pl.emerytura.help.years_contribution",
+        "key": "years_of_contribution",
+        "label_key": "pl.emerytura.field.years_contribution",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "years_worked_abroad",
+        "label_key": "pl.emerytura.field.years_abroad",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "currently_employed",
+        "label_key": "pl.emerytura.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_gross_pln_last_year",
+        "label_key": "pl.emerytura.field.gross_pln_last",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "pension_account_choice",
+        "label_key": "pl.emerytura.field.account_choice",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "pue_zus_login",
+        "label_key": "pl.emerytura.field.pue_login",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "pl.emerytura.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "pl:emerytura",
+    "level": "country",
+    "official_url": "https://www.zus.pl/baza-wiedzy/swiadczenia/emerytury-i-renty/emerytura",
+    "one_liner_key": "benefit.pl.emerytura.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "emerytura zus",
+      "wniosek o emeryturę",
+      "emerytura wiek emerytalny",
+      "emerytura 2026",
+      "kalkulator emerytury zus",
+      "emerytura jak złożyć wniosek"
+    ],
+    "slug": "emerytura",
+    "title_english": "Old-age pension",
+    "title_native": "Emerytura"
+  },
+  {
+    "authority": "ZUS (Zakład Ubezpieczeń Społecznych)",
+    "avg_value_eur_per_year": 2400,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.6,
+    "country": "pl",
+    "description_key": "benefit.pl.swiadczenie_800.description",
+    "eligibility_key": "benefit.pl.swiadczenie_800.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "pl.swiadczenie_800.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "pl.swiadczenie_800.help.pesel",
+        "key": "applicant_pesel",
+        "label_key": "pl.swiadczenie_800.field.pesel",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "pl.swiadczenie_800.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "num_children",
+        "label_key": "pl.swiadczenie_800.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "pl.swiadczenie_800.help.children_pesels",
+        "key": "children_pesels",
+        "label_key": "pl.swiadczenie_800.field.children_pesels",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "children_dobs",
+        "label_key": "pl.swiadczenie_800.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "custody_split",
+        "label_key": "pl.swiadczenie_800.field.custody_split",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "parent_2_pesel",
+        "label_key": "pl.swiadczenie_800.field.parent_2_pesel",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "pl.swiadczenie_800.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "pl:swiadczenie-800-plus",
+    "level": "country",
+    "official_url": "https://www.zus.pl/baza-wiedzy/programy/rodzina-800",
+    "one_liner_key": "benefit.pl.swiadczenie_800.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "świadczenie 800 plus",
+      "rodzina 800 plus zus",
+      "wniosek 800 plus",
+      "800+ wniosek 2026",
+      "800 plus emp@tia",
+      "kindergeld polen"
+    ],
+    "slug": "swiadczenie-800-plus",
+    "title_english": "Family 800+ child benefit",
+    "title_native": "Świadczenie 800+ (Rodzina 800+)"
+  },
+  {
+    "authority": "ZUS (Zakład Ubezpieczeń Społecznych)",
+    "avg_value_eur_per_year": 1200,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.0,
+    "country": "pl",
+    "description_key": "benefit.pl.zasilek_chorobowy.description",
+    "eligibility_key": "benefit.pl.zasilek_chorobowy.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "pl.zasilek_chorobowy.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_pesel",
+        "label_key": "pl.zasilek_chorobowy.field.pesel",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "pl.zasilek_chorobowy.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "pl.zasilek_chorobowy.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "contingency_type",
+        "label_key": "pl.zasilek_chorobowy.field.contingency",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "zwolnienie_start",
+        "label_key": "pl.zasilek_chorobowy.field.zwolnienie_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "zwolnienie_end",
+        "label_key": "pl.zasilek_chorobowy.field.zwolnienie_end",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "treating_doctor_name",
+        "label_key": "pl.zasilek_chorobowy.field.treating_doctor",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_gross_pln",
+        "label_key": "pl.zasilek_chorobowy.field.gross_pln",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "contribution_status",
+        "label_key": "pl.zasilek_chorobowy.field.contribution_status",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "employer_pays_already",
+        "label_key": "pl.zasilek_chorobowy.field.employer_pays",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "pl.zasilek_chorobowy.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "pl:zasilek-chorobowy",
+    "level": "country",
+    "official_url": "https://www.zus.pl/baza-wiedzy/swiadczenia/zasilek-chorobowy",
+    "one_liner_key": "benefit.pl.zasilek_chorobowy.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "zasiłek chorobowy zus",
+      "L4 zus",
+      "zasiłek chorobowy 2026",
+      "wniosek o zasiłek chorobowy",
+      "wysokość zasiłku chorobowego",
+      "zwolnienie lekarskie zus"
+    ],
+    "slug": "zasilek-chorobowy",
+    "title_english": "Sickness benefit",
+    "title_native": "Zasiłek chorobowy"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "authority": "Sotsiaalkindlustusamet (SKA)",
+    "avg_value_eur_per_year": 2160,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.5,
+    "country": "ee",
+    "description_key": "benefit.ee.peretoetus.description",
+    "eligibility_key": "benefit.ee.peretoetus.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "ee.peretoetus.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "ee.peretoetus.help.isikukood",
+        "key": "applicant_isikukood",
+        "label_key": "ee.peretoetus.field.isikukood",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "ee.peretoetus.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "ee.peretoetus.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "num_children",
+        "label_key": "ee.peretoetus.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "ee.peretoetus.help.children_isikukoods",
+        "key": "children_isikukoods",
+        "label_key": "ee.peretoetus.field.children_isikukoods",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "children_dobs",
+        "label_key": "ee.peretoetus.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "custody_situation",
+        "label_key": "ee.peretoetus.field.custody",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "ee.peretoetus.help.school_attendance",
+        "key": "school_attendance",
+        "label_key": "ee.peretoetus.field.school_attendance",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "ee.peretoetus.help.disability",
+        "key": "disability_certificate",
+        "label_key": "ee.peretoetus.field.disability",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "partner_employed",
+        "label_key": "ee.peretoetus.field.partner_employed",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "ee.peretoetus.help.eu_other",
+        "key": "eu_cross_border_country",
+        "label_key": "ee.peretoetus.field.eu_other",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "ee.peretoetus.help.smart_id",
+        "key": "smart_id_login",
+        "label_key": "ee.peretoetus.field.smart_id",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "ee.peretoetus.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "ee:peretoetus",
+    "level": "country",
+    "official_url": "https://sotsiaalkindlustusamet.ee/perehuvitised",
+    "one_liner_key": "benefit.ee.peretoetus.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "peretoetus",
+      "lapsetoetus",
+      "lapsetoetus 2026",
+      "suure pere toetus",
+      "peretoetuste seadus",
+      "üksikvanema toetus",
+      "lapsetoetus avaldus",
+      "peretoetus eesti.ee"
+    ],
+    "slug": "peretoetus",
+    "title_english": "Family allowances",
+    "title_native": "Peretoetused (lapsetoetus + suurpere)"
+  },
+  {
+    "authority": "Sotsiaalkindlustusamet (SKA)",
+    "avg_value_eur_per_year": 9312,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.5,
+    "country": "ee",
+    "description_key": "benefit.ee.vanaduspension.description",
+    "eligibility_key": "benefit.ee.vanaduspension.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "ee.vanaduspension.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "ee.vanaduspension.help.isikukood",
+        "key": "applicant_isikukood",
+        "label_key": "ee.vanaduspension.field.isikukood",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "ee.vanaduspension.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "ee.vanaduspension.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "ee.vanaduspension.help.desired_start",
+        "key": "desired_pension_start",
+        "label_key": "ee.vanaduspension.field.desired_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "ee.vanaduspension.help.years_ee",
+        "key": "years_insured_ee",
+        "label_key": "ee.vanaduspension.field.years_ee",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "ee.vanaduspension.help.years_abroad",
+        "key": "years_insured_abroad",
+        "label_key": "ee.vanaduspension.field.years_abroad",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "foreign_countries_worked",
+        "label_key": "ee.vanaduspension.field.foreign_countries",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "ee.vanaduspension.help.children_raised",
+        "key": "number_of_children_raised",
+        "label_key": "ee.vanaduspension.field.children_raised",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "ee.vanaduspension.help.kogumispension",
+        "key": "second_pillar_kogumispension",
+        "label_key": "ee.vanaduspension.field.kogumispension",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "ee.vanaduspension.help.currently_employed",
+        "key": "currently_employed",
+        "label_key": "ee.vanaduspension.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "smart_id_login",
+        "label_key": "ee.vanaduspension.field.smart_id",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "ee.vanaduspension.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "ee:vanaduspension",
+    "level": "country",
+    "official_url": "https://sotsiaalkindlustusamet.ee/pensionid",
+    "one_liner_key": "benefit.ee.vanaduspension.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "vanaduspension",
+      "pension 2026",
+      "pensioniiga",
+      "RPKS pension",
+      "II sammas pension",
+      "kogumispension",
+      "ennetähtaegne pension",
+      "pensioniarvestus",
+      "pension stažitabel"
+    ],
+    "slug": "vanaduspension",
+    "title_english": "Old-age contributory pension",
+    "title_native": "Vanaduspension"
+  }
+]

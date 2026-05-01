@@ -1,0 +1,219 @@
+[
+  {
+    "authority": "Udbetaling Danmark (UDK)",
+    "avg_value_eur_per_year": 2200,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.6,
+    "country": "dk",
+    "description_key": "benefit.dk.boerne.description",
+    "eligibility_key": "benefit.dk.boerne.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "dk.boerne.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_cpr",
+        "label_key": "dk.boerne.field.cpr",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "dk.boerne.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "num_children",
+        "label_key": "dk.boerne.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "dk.boerne.help.children_cprs",
+        "key": "children_cprs",
+        "label_key": "dk.boerne.field.children_cprs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "children_dobs",
+        "label_key": "dk.boerne.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "dk.boerne.help.household_income",
+        "key": "annual_household_income",
+        "label_key": "dk.boerne.field.household_income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "custody_situation",
+        "label_key": "dk.boerne.field.custody",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "dk.boerne.help.hrc_2y",
+        "key": "habitual_residence_dk_2y",
+        "label_key": "dk.boerne.field.hrc_2y",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "parent_2_cpr",
+        "label_key": "dk.boerne.field.parent_2_cpr",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "dk.boerne.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "dk:boerne-ungeydelse",
+    "level": "country",
+    "official_url": "https://www.borger.dk/familie-og-boern/Boerne-og-ungeydelse-oversigt",
+    "one_liner_key": "benefit.dk.boerne.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "børne- og ungeydelse",
+      "børnepenge",
+      "børneydelse 2026",
+      "ansøgning børnepenge",
+      "udbetaling danmark børn",
+      "børnetilskud"
+    ],
+    "slug": "boerne-ungeydelse",
+    "title_english": "Child and youth benefit",
+    "title_native": "Børne- og ungeydelse"
+  },
+  {
+    "authority": "Udbetaling Danmark (UDK)",
+    "avg_value_eur_per_year": 14400,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.5,
+    "country": "dk",
+    "description_key": "benefit.dk.folkepension.description",
+    "eligibility_key": "benefit.dk.folkepension.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "dk.folkepension.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "dk.folkepension.help.cpr",
+        "key": "applicant_cpr",
+        "label_key": "dk.folkepension.field.cpr",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "dk.folkepension.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "dk.folkepension.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "desired_pension_start",
+        "label_key": "dk.folkepension.field.desired_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "dk.folkepension.help.years_residence",
+        "key": "years_of_residence_dk",
+        "label_key": "dk.folkepension.field.years_residence",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "years_worked_abroad",
+        "label_key": "dk.folkepension.field.years_abroad",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "marital_status",
+        "label_key": "dk.folkepension.field.marital",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "dk.folkepension.help.partner_pensionable",
+        "key": "partner_pensionable",
+        "label_key": "dk.folkepension.field.partner_pensionable",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "dk.folkepension.help.other_income",
+        "key": "annual_other_income",
+        "label_key": "dk.folkepension.field.other_income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "nemid_mitid_login",
+        "label_key": "dk.folkepension.field.mitid",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "dk.folkepension.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "dk:folkepension",
+    "level": "country",
+    "official_url": "https://www.borger.dk/pension-og-efterloen/Folkepension-oversigt",
+    "one_liner_key": "benefit.dk.folkepension.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "folkepension",
+      "folkepension 2026",
+      "folkepension udbetaling danmark",
+      "folkepensionsalder",
+      "pensionstillæg",
+      "ansøgning folkepension borger.dk"
+    ],
+    "slug": "folkepension",
+    "title_english": "State old-age pension",
+    "title_native": "Folkepension"
+  }
+]

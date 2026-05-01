@@ -1,0 +1,253 @@
+[
+  {
+    "authority": "CAE (Caisse pour l'avenir des enfants)",
+    "avg_value_eur_per_year": 3552,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.5,
+    "country": "lu",
+    "description_key": "benefit.lu.allocations.description",
+    "eligibility_key": "benefit.lu.allocations.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lu.allocations.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "lu.allocations.help.matricule",
+        "key": "applicant_matricule",
+        "label_key": "lu.allocations.field.matricule",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "lu.allocations.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lu.allocations.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "num_children",
+        "label_key": "lu.allocations.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "lu.allocations.help.children_matricules",
+        "key": "children_matricules",
+        "label_key": "lu.allocations.field.children_matricules",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "children_dobs",
+        "label_key": "lu.allocations.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "custody_situation",
+        "label_key": "lu.allocations.field.custody",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "lu.allocations.help.school_attendance",
+        "key": "school_attendance",
+        "label_key": "lu.allocations.field.school_attendance",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "lu.allocations.help.disability",
+        "key": "disability_certificate",
+        "label_key": "lu.allocations.field.disability",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "lu.allocations.help.frontalier",
+        "key": "cross_border_worker",
+        "label_key": "lu.allocations.field.frontalier",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "cross_border_country",
+        "label_key": "lu.allocations.field.frontalier_country",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "lu.allocations.help.luxtrust",
+        "key": "luxtrust_login",
+        "label_key": "lu.allocations.field.luxtrust",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lu.allocations.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lu:allocations-familiales",
+    "level": "country",
+    "official_url": "https://cae.public.lu/fr/allocations.html",
+    "one_liner_key": "benefit.lu.allocations.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "allocations familiales",
+      "AF Luxembourg",
+      "allocations familiales 2026",
+      "CAE Luxembourg",
+      "boni pour enfant",
+      "allocation rentrée scolaire",
+      "loi du 23 juillet 2016",
+      "demande allocations familiales"
+    ],
+    "slug": "allocations-familiales",
+    "title_english": "Family allowances",
+    "title_native": "Allocations familiales"
+  },
+  {
+    "authority": "CNAP (Caisse nationale d'assurance pension)",
+    "avg_value_eur_per_year": 24000,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.5,
+    "country": "lu",
+    "description_key": "benefit.lu.pension.description",
+    "eligibility_key": "benefit.lu.pension.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lu.pension.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "lu.pension.help.matricule",
+        "key": "applicant_matricule",
+        "label_key": "lu.pension.field.matricule",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "lu.pension.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lu.pension.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "lu.pension.help.desired_start",
+        "key": "desired_pension_start",
+        "label_key": "lu.pension.field.desired_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "lu.pension.help.months_lu",
+        "key": "months_insured_lu",
+        "label_key": "lu.pension.field.months_lu",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "lu.pension.help.months_abroad",
+        "key": "months_insured_abroad",
+        "label_key": "lu.pension.field.months_abroad",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "foreign_countries_worked",
+        "label_key": "lu.pension.field.foreign_countries",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "lu.pension.help.children_raised",
+        "key": "number_of_children_raised",
+        "label_key": "lu.pension.field.children_raised",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "lu.pension.help.baby_years",
+        "key": "baby_years_credit",
+        "label_key": "lu.pension.field.baby_years",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "lu.pension.help.currently_employed",
+        "key": "currently_employed",
+        "label_key": "lu.pension.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "luxtrust_login",
+        "label_key": "lu.pension.field.luxtrust",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lu.pension.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lu:pension-vieillesse",
+    "level": "country",
+    "official_url": "https://www.cnap.lu/pension-de-vieillesse/",
+    "one_liner_key": "benefit.lu.pension.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "pension de vieillesse",
+      "pension Luxembourg",
+      "âge légal pension 65",
+      "CNAP pension",
+      "pension anticipée 60 ans",
+      "calcul pension Luxembourg",
+      "réforme pensions 2012",
+      "MyGuichet pension",
+      "pension frontalier",
+      "loi 21 décembre 2012"
+    ],
+    "slug": "pension-vieillesse",
+    "title_english": "Old-age contributory pension",
+    "title_native": "Pension de vieillesse"
+  }
+]

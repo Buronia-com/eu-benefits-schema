@@ -1,0 +1,252 @@
+[
+  {
+    "authority": "VSAA (Valsts sociālās apdrošināšanas aģentūra)",
+    "avg_value_eur_per_year": 750,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.5,
+    "country": "lv",
+    "description_key": "benefit.lv.bernu.description",
+    "eligibility_key": "benefit.lv.bernu.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lv.bernu.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "lv.bernu.help.personas_kods",
+        "key": "applicant_personas_kods",
+        "label_key": "lv.bernu.field.personas_kods",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "lv.bernu.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lv.bernu.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "num_children",
+        "label_key": "lv.bernu.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "lv.bernu.help.children_personas_kods",
+        "key": "children_personas_kods",
+        "label_key": "lv.bernu.field.children_personas_kods",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "children_dobs",
+        "label_key": "lv.bernu.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "custody_situation",
+        "label_key": "lv.bernu.field.custody",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "lv.bernu.help.school_attendance",
+        "key": "school_attendance",
+        "label_key": "lv.bernu.field.school_attendance",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "lv.bernu.help.disability",
+        "key": "disability_certificate",
+        "label_key": "lv.bernu.field.disability",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "partner_employed",
+        "label_key": "lv.bernu.field.partner_employed",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "lv.bernu.help.eu_other",
+        "key": "eu_cross_border_country",
+        "label_key": "lv.bernu.field.eu_other",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "lv.bernu.help.eparaksts",
+        "key": "eparaksts_login",
+        "label_key": "lv.bernu.field.eparaksts",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lv.bernu.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lv:bernu-pabalsts",
+    "level": "country",
+    "official_url": "https://www.vsaa.gov.lv/lv/pakalpojumi/bernu-pabalsts",
+    "one_liner_key": "benefit.lv.bernu.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "bērnu pabalsts",
+      "ģimenes valsts pabalsts",
+      "bērnu pabalsts 2026",
+      "VSAA bērnu pabalsts",
+      "daudzbērnu ģimene pabalsts",
+      "iesniegums bērnu pabalstam",
+      "bērnu pabalsts apmērs"
+    ],
+    "slug": "bernu-pabalsts",
+    "title_english": "State family allowance",
+    "title_native": "Bērnu pabalsts"
+  },
+  {
+    "authority": "VSAA (Valsts sociālās apdrošināšanas aģentūra)",
+    "avg_value_eur_per_year": 6468,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.5,
+    "country": "lv",
+    "description_key": "benefit.lv.pensija.description",
+    "eligibility_key": "benefit.lv.pensija.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "lv.pensija.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "lv.pensija.help.personas_kods",
+        "key": "applicant_personas_kods",
+        "label_key": "lv.pensija.field.personas_kods",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "lv.pensija.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "lv.pensija.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "lv.pensija.help.desired_start",
+        "key": "desired_pension_start",
+        "label_key": "lv.pensija.field.desired_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "lv.pensija.help.years_lv",
+        "key": "years_insured_lv",
+        "label_key": "lv.pensija.field.years_lv",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "lv.pensija.help.years_abroad",
+        "key": "years_insured_abroad",
+        "label_key": "lv.pensija.field.years_abroad",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "foreign_countries_worked",
+        "label_key": "lv.pensija.field.foreign_countries",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "lv.pensija.help.children_raised",
+        "key": "number_of_children_raised",
+        "label_key": "lv.pensija.field.children_raised",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "lv.pensija.help.fonds",
+        "key": "second_pillar_fonds",
+        "label_key": "lv.pensija.field.fonds",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "lv.pensija.help.currently_employed",
+        "key": "currently_employed",
+        "label_key": "lv.pensija.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "eparaksts_login",
+        "label_key": "lv.pensija.field.eparaksts",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "lv.pensija.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "lv:vecuma-pensija",
+    "level": "country",
+    "official_url": "https://www.vsaa.gov.lv/lv/pakalpojumi/vecuma-pensija",
+    "one_liner_key": "benefit.lv.pensija.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "vecuma pensija",
+      "pensija 2026",
+      "pensionēšanās vecums",
+      "VSAA pensija",
+      "priekšlaicīga pensija",
+      "pensijas aprēķins",
+      "minimālā vecuma pensija",
+      "pensijas kapitāls",
+      "II pīlārs Latvija",
+      "13. pensija"
+    ],
+    "slug": "vecuma-pensija",
+    "title_english": "Old-age contributory pension",
+    "title_native": "Vecuma pensija"
+  }
+]

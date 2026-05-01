@@ -1,0 +1,219 @@
+[
+  {
+    "authority": "Försäkringskassan",
+    "avg_value_eur_per_year": 13800,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.2,
+    "country": "se",
+    "description_key": "benefit.se.foraldrapenning.description",
+    "eligibility_key": "benefit.se.foraldrapenning.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "se.foraldrapenning.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_personnummer",
+        "label_key": "se.foraldrapenning.field.personnummer",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "se.foraldrapenning.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "se.foraldrapenning.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "child_personnummer",
+        "label_key": "se.foraldrapenning.field.child_personnummer",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "child_dob",
+        "label_key": "se.foraldrapenning.field.child_dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "parent_role",
+        "label_key": "se.foraldrapenning.field.parent_role",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "se.foraldrapenning.help.gross_sek_pre",
+        "key": "monthly_gross_sek_pre_birth",
+        "label_key": "se.foraldrapenning.field.gross_sek_pre",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "days_already_taken",
+        "label_key": "se.foraldrapenning.field.days_taken",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "days_planning_to_take",
+        "label_key": "se.foraldrapenning.field.days_planned",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "other_parent_personnummer",
+        "label_key": "se.foraldrapenning.field.other_parent_pn",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "se.foraldrapenning.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "se:foraldrapenning",
+    "level": "country",
+    "official_url": "https://www.forsakringskassan.se/privatperson/foralder/foraldrapenning",
+    "one_liner_key": "benefit.se.foraldrapenning.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "föräldrapenning ansökan",
+      "föräldrapenning sgi",
+      "föräldrapenning 480 dagar",
+      "föräldrapenning 2026",
+      "föräldrapenning grundnivå",
+      "fk föräldrapenning"
+    ],
+    "slug": "foraldrapenning",
+    "title_english": "Parental benefit",
+    "title_native": "Föräldrapenning"
+  },
+  {
+    "authority": "Försäkringskassan",
+    "avg_value_eur_per_year": 12000,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.2,
+    "country": "se",
+    "description_key": "benefit.se.sjukpenning.description",
+    "eligibility_key": "benefit.se.sjukpenning.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "se.sjukpenning.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "se.sjukpenning.help.personnummer",
+        "key": "applicant_personnummer",
+        "label_key": "se.sjukpenning.field.personnummer",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "se.sjukpenning.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "se.sjukpenning.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "employment_status",
+        "label_key": "se.sjukpenning.field.employment_status",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "se.sjukpenning.help.gross_sek",
+        "key": "monthly_gross_sek",
+        "label_key": "se.sjukpenning.field.gross_sek",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "sjukperiod_start",
+        "label_key": "se.sjukpenning.field.sjukperiod_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "treating_doctor",
+        "label_key": "se.sjukpenning.field.treating_doctor",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "se.sjukpenning.help.lakarintyg",
+        "key": "lakarintyg_present",
+        "label_key": "se.sjukpenning.field.lakarintyg",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "se.sjukpenning.help.sjuklon",
+        "key": "employer_pays_sjuklon",
+        "label_key": "se.sjukpenning.field.sjuklon",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "se.sjukpenning.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "se:sjukpenning",
+    "level": "country",
+    "official_url": "https://www.forsakringskassan.se/privatperson/sjuk/anstalld/sjukpenning",
+    "one_liner_key": "benefit.se.sjukpenning.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "sjukpenning ansökan",
+      "sjukpenning försäkringskassan",
+      "sjukpenning sgi",
+      "sjukpenning 2026",
+      "sjukpenning beräkning",
+      "sjuklön sjukpenning"
+    ],
+    "slug": "sjukpenning",
+    "title_english": "Sickness benefit",
+    "title_native": "Sjukpenning"
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "authority": "ANPIS (Agenția Națională pentru Plăți și Inspecție Socială)",
+    "avg_value_eur_per_year": 600,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.6,
+    "country": "ro",
+    "description_key": "benefit.ro.alocatie.description",
+    "eligibility_key": "benefit.ro.alocatie.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "ro.alocatie.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_cnp",
+        "label_key": "ro.alocatie.field.cnp",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "ro.alocatie.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "num_children",
+        "label_key": "ro.alocatie.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "ro.alocatie.help.children_cnps",
+        "key": "children_cnps",
+        "label_key": "ro.alocatie.field.children_cnps",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "children_dobs",
+        "label_key": "ro.alocatie.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "children_with_disability",
+        "label_key": "ro.alocatie.field.disability_present",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "custody_situation",
+        "label_key": "ro.alocatie.field.custody",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "parent_2_cnp",
+        "label_key": "ro.alocatie.field.parent_2_cnp",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "ro.alocatie.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "ro:alocatia-stat-copii",
+    "level": "country",
+    "official_url": "https://www.mmuncii.ro/j33/index.php/ro/familie/alocatii",
+    "one_liner_key": "benefit.ro.alocatie.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "alocatie copii",
+      "alocatie stat copii anpis",
+      "alocatie copii 2026",
+      "valoare alocatie de stat",
+      "cerere alocatie copii",
+      "alocatie copii nou nascut"
+    ],
+    "slug": "alocatia-stat-copii",
+    "title_english": "Universal child allowance",
+    "title_native": "Alocația de stat pentru copii"
+  },
+  {
+    "authority": "CNPP (Casa Națională de Pensii Publice)",
+    "avg_value_eur_per_year": 4200,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.6,
+    "country": "ro",
+    "description_key": "benefit.ro.pensia.description",
+    "eligibility_key": "benefit.ro.pensia.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "ro.pensia.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "ro.pensia.help.cnp",
+        "key": "applicant_cnp",
+        "label_key": "ro.pensia.field.cnp",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "ro.pensia.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "ro.pensia.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "desired_pension_start",
+        "label_key": "ro.pensia.field.desired_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "ro.pensia.help.stagiul_cotizare",
+        "key": "years_of_contribution",
+        "label_key": "ro.pensia.field.stagiul_cotizare",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "ro.pensia.help.years_abroad",
+        "key": "years_worked_abroad",
+        "label_key": "ro.pensia.field.years_abroad",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "ro.pensia.help.special_conditions",
+        "key": "worked_in_special_conditions",
+        "label_key": "ro.pensia.field.special_conditions",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "currently_employed",
+        "label_key": "ro.pensia.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_gross_ron_last_year",
+        "label_key": "ro.pensia.field.gross_ron_last",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "psap_login",
+        "label_key": "ro.pensia.field.psap_login",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "ro.pensia.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "ro:pensia-pentru-limita-de-varsta",
+    "level": "country",
+    "official_url": "https://www.cnpp.ro/pensia-pentru-limita-de-varsta",
+    "one_liner_key": "benefit.ro.pensia.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "pensie limita varsta",
+      "cnpp pensie",
+      "pensie 2026",
+      "calculator pensie cnpp",
+      "varsta standard pensionare",
+      "stagiul de cotizare pensie"
+    ],
+    "slug": "pensia-pentru-limita-de-varsta",
+    "title_english": "Old-age pension",
+    "title_native": "Pensia pentru limită de vârstă"
+  }
+]

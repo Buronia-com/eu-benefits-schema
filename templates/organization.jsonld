@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://example.org/#org",
+  "name": "Example Benefits Helper",
+  "url": "https://example.org/",
+  "description": "Private service that helps EU residents draft applications for government benefits.",
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "European Union"
+    }
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "email": "hello@example.org"
+    }
+  ],
+  "subOrganization": [
+    {
+      "@type": "Organization",
+      "name": "Example Benefits Germany",
+      "url": "https://germany.example.org/",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Germany"
+      }
+    }
+  ]
+}

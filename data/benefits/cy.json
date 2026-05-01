@@ -1,0 +1,250 @@
+[
+  {
+    "authority": "Υπουργείο Εργασίας και Κοινωνικών Ασφαλίσεων (MLSI)",
+    "avg_value_eur_per_year": 720,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.6,
+    "country": "cy",
+    "description_key": "benefit.cy.epidoma.description",
+    "eligibility_key": "benefit.cy.epidoma.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "cy.epidoma.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "cy.epidoma.help.id_number",
+        "key": "applicant_id_number",
+        "label_key": "cy.epidoma.field.id_number",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "cy.epidoma.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "cy.epidoma.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "cy.epidoma.help.afm",
+        "key": "applicant_afm",
+        "label_key": "cy.epidoma.field.afm",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "num_children",
+        "label_key": "cy.epidoma.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "cy.epidoma.help.children_ids",
+        "key": "children_ids",
+        "label_key": "cy.epidoma.field.children_ids",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "children_dobs",
+        "label_key": "cy.epidoma.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "cy.epidoma.help.household_income",
+        "key": "annual_household_income",
+        "label_key": "cy.epidoma.field.household_income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "custody_situation",
+        "label_key": "cy.epidoma.field.custody",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "cy.epidoma.help.polyteknia",
+        "key": "polyteknia_status",
+        "label_key": "cy.epidoma.field.polyteknia",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "cy.epidoma.help.school_attendance",
+        "key": "school_attendance",
+        "label_key": "cy.epidoma.field.school_attendance",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "cy.epidoma.help.safetynet",
+        "key": "safetynet_login",
+        "label_key": "cy.epidoma.field.safetynet",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "cy.epidoma.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "cy:epidoma-teknou",
+    "level": "country",
+    "official_url": "https://www.mlsi.gov.cy/welfareservices/wsfamilybenefits/",
+    "one_liner_key": "benefit.cy.epidoma.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "επίδομα τέκνου",
+      "παροχή επιδόματος τέκνου",
+      "επίδομα τέκνου 2026",
+      "MLSI επίδομα",
+      "οικογενειακά επιδόματα Κύπρος",
+      "πολυτεκνικό επίδομα",
+      "αίτηση επίδομα τέκνου"
+    ],
+    "slug": "epidoma-teknou",
+    "title_english": "Child benefit",
+    "title_native": "Επίδομα Τέκνου"
+  },
+  {
+    "authority": "Υπηρεσία Κοινωνικών Ασφαλίσεων (ΥΚΑ)",
+    "avg_value_eur_per_year": 10440,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.5,
+    "country": "cy",
+    "description_key": "benefit.cy.syntaksi.description",
+    "eligibility_key": "benefit.cy.syntaksi.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "cy.syntaksi.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "cy.syntaksi.help.id_number",
+        "key": "applicant_id_number",
+        "label_key": "cy.syntaksi.field.id_number",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "cy.syntaksi.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "cy.syntaksi.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "cy.syntaksi.help.desired_start",
+        "key": "desired_pension_start",
+        "label_key": "cy.syntaksi.field.desired_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "cy.syntaksi.help.years_cy",
+        "key": "years_insured_cy",
+        "label_key": "cy.syntaksi.field.years_cy",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "cy.syntaksi.help.years_abroad",
+        "key": "years_insured_abroad",
+        "label_key": "cy.syntaksi.field.years_abroad",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "foreign_countries_worked",
+        "label_key": "cy.syntaksi.field.foreign_countries",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "cy.syntaksi.help.children_raised",
+        "key": "number_of_children_raised",
+        "label_key": "cy.syntaksi.field.children_raised",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "cy.syntaksi.help.provident",
+        "key": "provident_fund",
+        "label_key": "cy.syntaksi.field.provident",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "cy.syntaksi.help.currently_employed",
+        "key": "currently_employed",
+        "label_key": "cy.syntaksi.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "safetynet_login",
+        "label_key": "cy.syntaksi.field.safetynet",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "cy.syntaksi.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "cy:syntaksi-geras",
+    "level": "country",
+    "official_url": "https://www.mlsi.gov.cy/sid/sid.nsf/sid14_en/sid14_en?OpenDocument",
+    "one_liner_key": "benefit.cy.syntaksi.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "σύνταξη γήρατος",
+      "συνταξιοδότηση Κύπρος",
+      "ηλικία συνταξιοδότησης 65",
+      "ΥΚΑ σύνταξη",
+      "πρόωρη σύνταξη γήρατος",
+      "βασική + συμπληρωματική σύνταξη",
+      "νόμος 59 του 2010",
+      "πυλώνες σύνταξης"
+    ],
+    "slug": "syntaksi-geras",
+    "title_english": "Old-age contributory pension",
+    "title_native": "Σύνταξη Γήρατος"
+  }
+]

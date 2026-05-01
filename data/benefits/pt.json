@@ -1,0 +1,233 @@
+[
+  {
+    "authority": "Instituto da Segurança Social (ISS)",
+    "avg_value_eur_per_year": 720,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.7,
+    "country": "pt",
+    "description_key": "benefit.pt.abono.description",
+    "eligibility_key": "benefit.pt.abono.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "pt.abono.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "pt.abono.help.nif",
+        "key": "applicant_nif",
+        "label_key": "pt.abono.field.nif",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "pt.abono.help.niss",
+        "key": "applicant_niss",
+        "label_key": "pt.abono.field.niss",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "pt.abono.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "num_children",
+        "label_key": "pt.abono.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "pt.abono.help.children_nifs",
+        "key": "children_nifs",
+        "label_key": "pt.abono.field.children_nifs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "children_dobs",
+        "label_key": "pt.abono.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "pt.abono.help.annual_income",
+        "key": "annual_household_income",
+        "label_key": "pt.abono.field.annual_income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "pt.abono.help.monoparental",
+        "key": "monoparental_household",
+        "label_key": "pt.abono.field.monoparental",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "custody_situation",
+        "label_key": "pt.abono.field.custody",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "parent_2_nif",
+        "label_key": "pt.abono.field.parent_2_nif",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "pt.abono.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "pt:abono-de-familia",
+    "level": "country",
+    "official_url": "https://www.seg-social.pt/abono-de-familia-para-criancas-e-jovens",
+    "one_liner_key": "benefit.pt.abono.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "abono de família",
+      "abono família segurança social",
+      "abono família 2026",
+      "pedido abono de família online",
+      "escalões abono família",
+      "abono família monoparental"
+    ],
+    "slug": "abono-de-familia",
+    "title_english": "Family allowance for children and young people",
+    "title_native": "Abono de família para crianças e jovens"
+  },
+  {
+    "authority": "CNP / Instituto da Segurança Social",
+    "avg_value_eur_per_year": 7200,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.6,
+    "country": "pt",
+    "description_key": "benefit.pt.pensao.description",
+    "eligibility_key": "benefit.pt.pensao.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "pt.pensao.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_nif",
+        "label_key": "pt.pensao.field.nif",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_niss",
+        "label_key": "pt.pensao.field.niss",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "pt.pensao.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "pt.pensao.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "desired_pension_start",
+        "label_key": "pt.pensao.field.desired_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "pt.pensao.help.carreira_anos",
+        "key": "years_of_contribution",
+        "label_key": "pt.pensao.field.carreira_anos",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "years_worked_abroad",
+        "label_key": "pt.pensao.field.years_abroad",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "pt.pensao.help.demanding_jobs",
+        "key": "worked_in_demanding_jobs",
+        "label_key": "pt.pensao.field.demanding_jobs",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "currently_employed",
+        "label_key": "pt.pensao.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_gross_eur_last_year",
+        "label_key": "pt.pensao.field.gross_eur_last",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "ssd_login",
+        "label_key": "pt.pensao.field.ssd_login",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "pt.pensao.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "pt:pensao-velhice",
+    "level": "country",
+    "official_url": "https://www.seg-social.pt/pensao-de-velhice",
+    "one_liner_key": "benefit.pt.pensao.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "pensão de velhice",
+      "pensão velhice segurança social",
+      "idade reforma portugal",
+      "pedido pensão velhice 2026",
+      "carreira contributiva",
+      "factor sustentabilidade pensão"
+    ],
+    "slug": "pensao-velhice",
+    "title_english": "Old-age pension",
+    "title_native": "Pensão de velhice"
+  }
+]

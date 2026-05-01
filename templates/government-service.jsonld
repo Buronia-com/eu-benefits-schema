@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Wohngeld",
+  "alternateName": "Housing benefit",
+  "description": "State subsidy for rent or homeownership for low- to middle-income households in Germany.",
+  "url": "https://example.org/wohngeld",
+  "inLanguage": "de",
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": "Wohngeldstelle (local housing benefit office)",
+    "url": "https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/wohngeld/wohngeld-node.html"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "audience": {
+    "@type": "Audience",
+    "geographicArea": {
+      "@type": "Country",
+      "name": "Germany"
+    }
+  },
+  "isAccessibleForFree": true,
+  "potentialAction": {
+    "@type": "ApplyAction",
+    "target": "https://example.org/wohngeld/apply"
+  }
+}

@@ -1,0 +1,233 @@
+[
+  {
+    "authority": "OPEKA (Οργανισμός Προνοιακών Επιδομάτων)",
+    "avg_value_eur_per_year": 840,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.0,
+    "country": "gr",
+    "description_key": "benefit.gr.epidoma.description",
+    "eligibility_key": "benefit.gr.epidoma.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "gr.epidoma.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_amka",
+        "label_key": "gr.epidoma.field.amka",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_afm",
+        "label_key": "gr.epidoma.field.afm",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "gr.epidoma.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "num_children_dependent",
+        "label_key": "gr.epidoma.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "gr.epidoma.help.children_amka",
+        "key": "children_amka",
+        "label_key": "gr.epidoma.field.children_amka",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "children_dobs",
+        "label_key": "gr.epidoma.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "gr.epidoma.help.annual_income",
+        "key": "annual_household_income",
+        "label_key": "gr.epidoma.field.annual_income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "custody_situation",
+        "label_key": "gr.epidoma.field.custody",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "gr.epidoma.help.e1_filed",
+        "key": "e1_filed_current_year",
+        "label_key": "gr.epidoma.field.e1_filed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "parent_2_afm",
+        "label_key": "gr.epidoma.field.parent_2_afm",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "gr.epidoma.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "gr:epidoma-paidiou",
+    "level": "country",
+    "official_url": "https://opeka.gr/oikogeneia/epidoma-paidiou/",
+    "one_liner_key": "benefit.gr.epidoma.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "επιδομα παιδιου",
+      "epidoma paidiou opeka",
+      "α21 επίδομα παιδιού",
+      "επίδομα παιδιού 2026",
+      "αίτηση επίδομα παιδιού",
+      "οπεκα επίδομα"
+    ],
+    "slug": "epidoma-paidiou",
+    "title_english": "Child benefit",
+    "title_native": "Επίδομα παιδιού"
+  },
+  {
+    "authority": "e-EFKA (Ηλεκτρονικός Εθνικός Φορέας Κοινωνικής Ασφάλισης)",
+    "avg_value_eur_per_year": 9600,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.6,
+    "country": "gr",
+    "description_key": "benefit.gr.syntaxis.description",
+    "eligibility_key": "benefit.gr.syntaxis.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "gr.syntaxis.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "gr.syntaxis.help.amka",
+        "key": "applicant_amka",
+        "label_key": "gr.syntaxis.field.amka",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "gr.syntaxis.help.afm",
+        "key": "applicant_afm",
+        "label_key": "gr.syntaxis.field.afm",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "gr.syntaxis.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "gr.syntaxis.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "desired_pension_start",
+        "label_key": "gr.syntaxis.field.desired_start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "gr.syntaxis.help.years_insurance",
+        "key": "years_of_insurance",
+        "label_key": "gr.syntaxis.field.years_insurance",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "years_worked_abroad",
+        "label_key": "gr.syntaxis.field.years_abroad",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "gr.syntaxis.help.bary_anthygieina",
+        "key": "worked_in_heavy_arduous",
+        "label_key": "gr.syntaxis.field.bary_anthygieina",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "currently_employed",
+        "label_key": "gr.syntaxis.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_gross_eur_last_year",
+        "label_key": "gr.syntaxis.field.gross_eur_last",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "taxisnet_login",
+        "label_key": "gr.syntaxis.field.taxisnet_login",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "gr.syntaxis.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "gr:syntaxis-giratos",
+    "level": "country",
+    "official_url": "https://www.efka.gov.gr/",
+    "one_liner_key": "benefit.gr.syntaxis.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "συνταξη γηρατος",
+      "syntaxi giratos efka",
+      "συνταξη 2026",
+      "ηλικία συνταξιοδότησης",
+      "αίτηση σύνταξης γήρατος",
+      "efka σύνταξη"
+    ],
+    "slug": "syntaxis-giratos",
+    "title_english": "Old-age pension",
+    "title_native": "Σύνταξη γήρατος"
+  }
+]

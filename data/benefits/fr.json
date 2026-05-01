@@ -1,0 +1,810 @@
+[
+  {
+    "authority": "CAF + MDPH (Maison départementale des personnes handicapées)",
+    "avg_value_eur_per_year": 11400,
+    "complexity": 5,
+    "complexity_hours_estimated": 2.5,
+    "country": "fr",
+    "description_key": "benefit.fr.aah.description",
+    "eligibility_key": "benefit.fr.aah.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "fr.aah.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "fr.aah.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_nir",
+        "label_key": "fr.aah.field.nir",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "fr.aah.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "disability_type",
+        "label_key": "fr.aah.field.disability_type",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "disability_started",
+        "label_key": "fr.aah.field.disability_started",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "treating_doctor",
+        "label_key": "fr.aah.field.treating_doctor",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "fr.aah.help.taux",
+        "key": "recognized_incapacity_pct",
+        "label_key": "fr.aah.field.taux_incapacite",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "annual_household_income_n2",
+        "label_key": "fr.aah.field.income_n2",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "currently_employed",
+        "label_key": "fr.aah.field.currently_employed",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_employment_income",
+        "label_key": "fr.aah.field.work_income",
+        "required": false,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "household_situation",
+        "label_key": "fr.aah.field.household",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "fr.aah.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "fr:aah",
+    "level": "country",
+    "official_url": "https://www.caf.fr/allocataires/aides-et-demarches/conditions-d-attribution/handicap/allocation-aux-adultes-handicapes-aah",
+    "one_liner_key": "benefit.fr.aah.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "aah caf",
+      "allocation adulte handicape",
+      "demande aah mdph",
+      "aah 2026",
+      "taux incapacite aah",
+      "aah simulation"
+    ],
+    "slug": "aah",
+    "title_english": "Disability allowance for adults",
+    "title_native": "Allocation aux adultes handicapés (AAH)"
+  },
+  {
+    "authority": "CAF",
+    "avg_value_eur_per_year": 1800,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.7,
+    "country": "fr",
+    "description_key": "benefit.fr.af.description",
+    "eligibility_key": "benefit.fr.af.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "fr.af.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "fr.af.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_nir",
+        "label_key": "fr.af.field.nir",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "fr.af.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "number_of_children",
+        "label_key": "fr.af.field.children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "fr.af.help.children_dobs",
+        "key": "children_dobs",
+        "label_key": "fr.af.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "household_situation",
+        "label_key": "fr.af.field.household",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "annual_household_income_n2",
+        "label_key": "fr.af.field.income_n2",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "fr.af.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "fr:allocation-familiale",
+    "level": "country",
+    "official_url": "https://www.caf.fr/allocataires/aides-et-demarches/conditions-d-attribution/enfance-et-jeunesse/les-allocations-familiales",
+    "one_liner_key": "benefit.fr.af.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "allocation familiale",
+      "allocations familiales caf",
+      "af 2026 montant",
+      "demande allocation familiale",
+      "af conditions"
+    ],
+    "slug": "allocation-familiale",
+    "title_english": "Family allowance",
+    "title_native": "Allocations familiales"
+  },
+  {
+    "authority": "CAF (Caisse d'Allocations Familiales)",
+    "avg_value_eur_per_year": 2520,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.5,
+    "country": "fr",
+    "description_key": "benefit.fr.apl.description",
+    "eligibility_key": "benefit.fr.apl.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "fr.apl.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "fr.apl.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "fr.apl.help.nir",
+        "key": "applicant_nir",
+        "label_key": "fr.apl.field.nir",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "fr.apl.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "household_size",
+        "label_key": "fr.apl.field.household_size",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "dwelling_type",
+        "label_key": "fr.apl.field.dwelling_type",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "fr.apl.help.rent",
+        "key": "monthly_rent",
+        "label_key": "fr.apl.field.rent",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_charges",
+        "label_key": "fr.apl.field.charges",
+        "required": false,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "number_of_children",
+        "label_key": "fr.apl.field.children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "fr.apl.help.income_n2",
+        "key": "annual_household_income_n2",
+        "label_key": "fr.apl.field.income_n2",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "employment_status",
+        "label_key": "fr.apl.field.employment",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "currently_receives_caf",
+        "label_key": "fr.apl.field.has_caf_account",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "caf_number",
+        "label_key": "fr.apl.field.numero_allocataire",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "fr.apl.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "fr:apl",
+    "level": "country",
+    "official_url": "https://www.caf.fr/allocataires/aides-et-demarches/conditions-d-attribution/logement/aide-personnalisee-au-logement-apl",
+    "one_liner_key": "benefit.fr.apl.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "apl caf",
+      "demande apl",
+      "aide personnalisée au logement",
+      "apl simulation",
+      "apl 2026",
+      "aide logement caf"
+    ],
+    "slug": "apl",
+    "title_english": "Personalised housing aid",
+    "title_native": "Aide personnalisée au logement (APL)"
+  },
+  {
+    "authority": "Assurance Maladie (CPAM)",
+    "avg_value_eur_per_year": 850,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.0,
+    "country": "fr",
+    "description_key": "benefit.fr.css.description",
+    "eligibility_key": "benefit.fr.css.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "fr.css.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "fr.css.help.nir",
+        "key": "applicant_nir",
+        "label_key": "fr.css.field.nir",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "fr.css.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "fr.css.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "household_size",
+        "label_key": "fr.css.field.household_size",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "fr.css.help.income",
+        "key": "annual_household_income",
+        "label_key": "fr.css.field.income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "household_situation",
+        "label_key": "fr.css.field.household_situation",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "fr.css.help.existing_mutuelle",
+        "key": "complementaire_existing",
+        "label_key": "fr.css.field.existing_mutuelle",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "fr.css.help.organisme",
+        "key": "preferred_organisme",
+        "label_key": "fr.css.field.organisme",
+        "required": false,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "caf_numero",
+        "label_key": "fr.css.field.caf_numero",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "ameli_credentials",
+        "label_key": "fr.css.field.ameli",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "fr.css.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "fr:complementaire-sante-solidaire",
+    "level": "country",
+    "official_url": "https://www.complementaire-sante-solidaire.gouv.fr/",
+    "one_liner_key": "benefit.fr.css.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "complémentaire santé solidaire",
+      "css demande",
+      "css plafond ressources",
+      "complémentaire santé solidaire 2026",
+      "css gratuite",
+      "css participation",
+      "ancienne cmu-c",
+      "css c2s",
+      "css simulateur",
+      "complémentaire santé solidaire revenus",
+      "css ameli",
+      "css cpam"
+    ],
+    "slug": "complementaire-sante-solidaire",
+    "title_english": "Solidarity complementary health insurance",
+    "title_native": "Complémentaire santé solidaire (CSS)"
+  },
+  {
+    "authority": "CNAV (Caisse nationale d'assurance vieillesse) + Agirc-Arrco",
+    "avg_value_eur_per_year": 8800,
+    "complexity": 4,
+    "complexity_hours_estimated": 2.0,
+    "country": "fr",
+    "description_key": "benefit.fr.reversion.description",
+    "eligibility_key": "benefit.fr.reversion.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "fr.reversion.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "fr.reversion.help.nir",
+        "key": "applicant_nir",
+        "label_key": "fr.reversion.field.nir",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "fr.reversion.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "fr.reversion.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "deceased_full_name",
+        "label_key": "fr.reversion.field.deceased_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "fr.reversion.help.deceased_nir",
+        "key": "deceased_nir",
+        "label_key": "fr.reversion.field.deceased_nir",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "deceased_dod",
+        "label_key": "fr.reversion.field.death_date",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "fr.reversion.help.marriage_date",
+        "key": "marriage_date",
+        "label_key": "fr.reversion.field.marriage_date",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "marriage_status",
+        "label_key": "fr.reversion.field.marriage_status",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "fr.reversion.help.income",
+        "key": "annual_personal_income",
+        "label_key": "fr.reversion.field.income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "dependent_children",
+        "label_key": "fr.reversion.field.children",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "fr.reversion.help.agirc_arrco",
+        "key": "agirc_arrco_concerned",
+        "label_key": "fr.reversion.field.agirc_arrco",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "caf_numero",
+        "label_key": "fr.reversion.field.caf_numero",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "fr.reversion.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "fr:pension-reversion",
+    "level": "country",
+    "official_url": "https://www.lassuranceretraite.fr/portail-info/sites/PUBPrincipale/home/conjoint-survivant.html",
+    "one_liner_key": "benefit.fr.reversion.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "pension de réversion",
+      "pension de réversion 54",
+      "pension de réversion plafond ressources",
+      "pension de réversion âge",
+      "pension de réversion conjoint",
+      "réversion agirc arrco",
+      "réversion 2026",
+      "pension de réversion remariage",
+      "pension de réversion concubinage",
+      "demande pension de réversion en ligne",
+      "pension de réversion calcul"
+    ],
+    "slug": "pension-reversion",
+    "title_english": "Survivor's pension",
+    "title_native": "Pension de réversion"
+  },
+  {
+    "authority": "CAF",
+    "avg_value_eur_per_year": 2160,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.0,
+    "country": "fr",
+    "description_key": "benefit.fr.prime_activite.description",
+    "eligibility_key": "benefit.fr.prime_activite.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "fr.prime_activite.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "fr.prime_activite.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_nir",
+        "label_key": "fr.prime_activite.field.nir",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "fr.prime_activite.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_employment_income_net",
+        "label_key": "fr.prime_activite.field.income_net",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "employment_status",
+        "label_key": "fr.prime_activite.field.employment",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "household_situation",
+        "label_key": "fr.prime_activite.field.household",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "number_of_children",
+        "label_key": "fr.prime_activite.field.children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_partner_income",
+        "label_key": "fr.prime_activite.field.partner_income",
+        "required": false,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "currently_receives_apl_aah",
+        "label_key": "fr.prime_activite.field.other_caf",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "fr.prime_activite.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "fr:prime-activite",
+    "level": "country",
+    "official_url": "https://www.caf.fr/allocataires/aides-et-demarches/conditions-d-attribution/solidarite-et-insertion/la-prime-d-activite",
+    "one_liner_key": "benefit.fr.prime_activite.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "prime d activite",
+      "prime activite caf",
+      "prime activite simulation",
+      "prime activite 2026",
+      "prime activite montant",
+      "prime activite condition"
+    ],
+    "slug": "prime-activite",
+    "title_english": "Activity bonus (in-work)",
+    "title_native": "Prime d'activité"
+  },
+  {
+    "authority": "CAF (instructed by Conseil départemental)",
+    "avg_value_eur_per_year": 7200,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.8,
+    "country": "fr",
+    "description_key": "benefit.fr.rsa.description",
+    "eligibility_key": "benefit.fr.rsa.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "fr.rsa.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "fr.rsa.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_nir",
+        "label_key": "fr.rsa.field.nir",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "fr.rsa.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "household_size",
+        "label_key": "fr.rsa.field.household_size",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "number_of_children",
+        "label_key": "fr.rsa.field.children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "household_situation",
+        "label_key": "fr.rsa.field.household",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "employment_status",
+        "label_key": "fr.rsa.field.employment",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "fr.rsa.help.income_3m",
+        "key": "monthly_income_last_3m",
+        "label_key": "fr.rsa.field.income_3m",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "monthly_partner_income",
+        "label_key": "fr.rsa.field.partner_income",
+        "required": false,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "housing_status",
+        "label_key": "fr.rsa.field.housing",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "currently_receives_aah_chomage",
+        "label_key": "fr.rsa.field.other_benefits",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "fr.rsa.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "fr:rsa",
+    "level": "country",
+    "official_url": "https://www.caf.fr/allocataires/aides-et-demarches/conditions-d-attribution/solidarite-et-insertion/le-revenu-de-solidarite-active-rsa",
+    "one_liner_key": "benefit.fr.rsa.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "rsa caf",
+      "demande rsa",
+      "rsa simulation",
+      "rsa montant 2026",
+      "rsa conditions",
+      "rsa en ligne"
+    ],
+    "slug": "rsa",
+    "title_english": "Active solidarity income",
+    "title_native": "Revenu de solidarité active (RSA)"
+  }
+]

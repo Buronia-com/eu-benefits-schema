@@ -1,0 +1,673 @@
+[
+  {
+    "authority": "Belastingdienst Toeslagen",
+    "avg_value_eur_per_year": 3200,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.0,
+    "country": "nl",
+    "description_key": "benefit.nl.huurtoeslag.description",
+    "eligibility_key": "benefit.nl.huurtoeslag.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "nl.huurtoeslag.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "nl.huurtoeslag.help.bsn",
+        "key": "applicant_bsn",
+        "label_key": "nl.huurtoeslag.field.bsn",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "nl.huurtoeslag.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "dwelling_address",
+        "label_key": "nl.huurtoeslag.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "nl.huurtoeslag.help.rent",
+        "key": "monthly_rent_kale",
+        "label_key": "nl.huurtoeslag.field.rent",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "nl.huurtoeslag.help.servicekosten",
+        "key": "monthly_servicekosten",
+        "label_key": "nl.huurtoeslag.field.servicekosten",
+        "required": false,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "partner_present",
+        "label_key": "nl.huurtoeslag.field.partner_present",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "nl.huurtoeslag.help.income",
+        "key": "annual_household_income",
+        "label_key": "nl.huurtoeslag.field.income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "nl.huurtoeslag.help.vermogen",
+        "key": "vermogen_box3",
+        "label_key": "nl.huurtoeslag.field.vermogen",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "nl.huurtoeslag.help.medebewoners",
+        "key": "medebewoners_count",
+        "label_key": "nl.huurtoeslag.field.medebewoners",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "partner_bsn",
+        "label_key": "nl.huurtoeslag.field.partner_bsn",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "digid_id",
+        "label_key": "nl.huurtoeslag.field.digid",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "nl.huurtoeslag.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "nl:huurtoeslag",
+    "level": "country",
+    "official_url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/hoe-werkt-huurtoeslag",
+    "one_liner_key": "benefit.nl.huurtoeslag.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "huurtoeslag aanvragen",
+      "huurtoeslag 2026",
+      "huurtoeslag berekenen",
+      "huurtoeslag inkomensgrens",
+      "huurtoeslag voorwaarden",
+      "huurtoeslag tabel",
+      "huurtoeslag belastingdienst",
+      "rekenhulp huurtoeslag",
+      "huurtoeslag wijzigen"
+    ],
+    "slug": "huurtoeslag",
+    "title_english": "Rent allowance",
+    "title_native": "Huurtoeslag"
+  },
+  {
+    "authority": "SVB (Sociale Verzekeringsbank)",
+    "avg_value_eur_per_year": 1100,
+    "complexity": 2,
+    "complexity_hours_estimated": 0.5,
+    "country": "nl",
+    "description_key": "benefit.nl.kinderbijslag.description",
+    "eligibility_key": "benefit.nl.kinderbijslag.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "nl.kinderbijslag.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_bsn",
+        "label_key": "nl.kinderbijslag.field.bsn",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "nl.kinderbijslag.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "num_children",
+        "label_key": "nl.kinderbijslag.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "nl.kinderbijslag.help.children_bsns",
+        "key": "children_bsns",
+        "label_key": "nl.kinderbijslag.field.children_bsns",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "children_dobs",
+        "label_key": "nl.kinderbijslag.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "custody_situation",
+        "label_key": "nl.kinderbijslag.field.custody",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "nl.kinderbijslag.help.disability",
+        "key": "child_with_disability",
+        "label_key": "nl.kinderbijslag.field.disability",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "digid_id",
+        "label_key": "nl.kinderbijslag.field.digid",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "nl.kinderbijslag.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "nl:kinderbijslag",
+    "level": "country",
+    "official_url": "https://www.svb.nl/nl/kinderbijslag/",
+    "one_liner_key": "benefit.nl.kinderbijslag.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "kinderbijslag aanvragen",
+      "kinderbijslag bedragen 2026",
+      "kinderbijslag svb",
+      "kinderbijslag 0 5 jaar",
+      "kinderbijslag 6 11 jaar",
+      "kinderbijslag 12 17 jaar",
+      "kinderbijslag betaaldatum",
+      "kinderbijslag wijzigen",
+      "kinderbijslag uitbetaling",
+      "extra kinderbijslag thuiswonend"
+    ],
+    "slug": "kinderbijslag",
+    "title_english": "Child allowance",
+    "title_native": "Kinderbijslag"
+  },
+  {
+    "authority": "Belastingdienst Toeslagen",
+    "avg_value_eur_per_year": 2400,
+    "complexity": 3,
+    "complexity_hours_estimated": 0.8,
+    "country": "nl",
+    "description_key": "benefit.nl.kindgebonden.description",
+    "eligibility_key": "benefit.nl.kindgebonden.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "nl.kindgebonden.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_bsn",
+        "label_key": "nl.kindgebonden.field.bsn",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "nl.kindgebonden.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "num_children",
+        "label_key": "nl.kindgebonden.field.num_children",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "help_key": "",
+        "key": "children_dobs",
+        "label_key": "nl.kindgebonden.field.children_dobs",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "partner_present",
+        "label_key": "nl.kindgebonden.field.partner_present",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "nl.kindgebonden.help.alleenstaande",
+        "key": "alleenstaande_ouder",
+        "label_key": "nl.kindgebonden.field.alleenstaande",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "nl.kindgebonden.help.income",
+        "key": "annual_household_income",
+        "label_key": "nl.kindgebonden.field.income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "vermogen_box3",
+        "label_key": "nl.kindgebonden.field.vermogen",
+        "required": false,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "digid_id",
+        "label_key": "nl.kindgebonden.field.digid",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "nl.kindgebonden.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "nl:kindgebonden-budget",
+    "level": "country",
+    "official_url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/hoe-werkt-kindgebonden-budget",
+    "one_liner_key": "benefit.nl.kindgebonden.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "kindgebonden budget aanvragen",
+      "kindgebonden budget 2026",
+      "kindgebonden budget berekenen",
+      "kindgebonden budget tabel",
+      "kindgebonden budget inkomensgrens",
+      "kindgebonden budget alleenstaande",
+      "kindgebonden budget voorwaarden",
+      "kindgebonden budget belastingdienst"
+    ],
+    "slug": "kindgebonden-budget",
+    "title_english": "Child-related budget supplement",
+    "title_native": "Kindgebonden budget"
+  },
+  {
+    "authority": "DUO (Dienst Uitvoering Onderwijs)",
+    "avg_value_eur_per_year": 5400,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.0,
+    "country": "nl",
+    "description_key": "benefit.nl.studiefinanciering.description",
+    "eligibility_key": "benefit.nl.studiefinanciering.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "nl.studie.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_bsn",
+        "label_key": "nl.studie.field.bsn",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "nl.studie.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "nl.studie.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "nl.studie.help.instelling",
+        "key": "instelling_name",
+        "label_key": "nl.studie.field.instelling",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "opleiding_niveau",
+        "label_key": "nl.studie.field.niveau",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "",
+        "key": "study_start_date",
+        "label_key": "nl.studie.field.start",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "nl.studie.help.graduation",
+        "key": "expected_graduation",
+        "label_key": "nl.studie.field.graduation",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "nl.studie.help.uitwonend",
+        "key": "uitwonend",
+        "label_key": "nl.studie.field.uitwonend",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "nl.studie.help.parent_income",
+        "key": "parent_combined_income",
+        "label_key": "nl.studie.field.parent_income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "nl.studie.help.loan",
+        "key": "loan_amount_requested",
+        "label_key": "nl.studie.field.loan",
+        "required": false,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "digid_id",
+        "label_key": "nl.studie.field.digid",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "nl.studie.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "nl:studiefinanciering",
+    "level": "country",
+    "official_url": "https://duo.nl/particulier/studiefinanciering/",
+    "one_liner_key": "benefit.nl.studiefinanciering.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "studiefinanciering aanvragen",
+      "studiefinanciering 2026",
+      "studiefinanciering duo",
+      "studiefinanciering berekenen",
+      "studiefinanciering hbo",
+      "studiefinanciering universiteit",
+      "studiebeurs aanvragen",
+      "ov chipkaart studie",
+      "aanvullende beurs",
+      "basisbeurs hbo wo"
+    ],
+    "slug": "studiefinanciering",
+    "title_english": "Student finance",
+    "title_native": "Studiefinanciering"
+  },
+  {
+    "authority": "UWV (Uitvoeringsinstituut Werknemersverzekeringen)",
+    "avg_value_eur_per_year": 18000,
+    "complexity": 4,
+    "complexity_hours_estimated": 1.5,
+    "country": "nl",
+    "description_key": "benefit.nl.ww.description",
+    "eligibility_key": "benefit.nl.ww.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "nl.ww.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_bsn",
+        "label_key": "nl.ww.field.bsn",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "nl.ww.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "nl.ww.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "employment_end_date",
+        "label_key": "nl.ww.field.employment_end",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "last_employer_name",
+        "label_key": "nl.ww.field.last_employer",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "last_employer_loonheffing_nr",
+        "label_key": "nl.ww.field.loonheffing_nr",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "nl.ww.help.gross_avg",
+        "key": "monthly_gross_avg_last_12m",
+        "label_key": "nl.ww.field.gross_avg",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "reason_for_unemployment",
+        "label_key": "nl.ww.field.reason",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "help_key": "nl.ww.help.wekeneis",
+        "key": "wekeneis_satisfied",
+        "label_key": "nl.ww.field.wekeneis",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "",
+        "key": "digid_id",
+        "label_key": "nl.ww.field.digid",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "nl.ww.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "nl:ww-uitkering",
+    "level": "country",
+    "official_url": "https://www.uwv.nl/particulieren/werkloos/index.aspx",
+    "one_liner_key": "benefit.nl.ww.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "ww uitkering",
+      "ww aanvragen uwv",
+      "ww duur",
+      "ww 75 procent",
+      "ww 2026",
+      "werkloos uwv"
+    ],
+    "slug": "ww-uitkering",
+    "title_english": "Unemployment benefit (WW)",
+    "title_native": "Werkloosheidswet (WW)"
+  },
+  {
+    "authority": "Belastingdienst Toeslagen",
+    "avg_value_eur_per_year": 1500,
+    "complexity": 3,
+    "complexity_hours_estimated": 1.0,
+    "country": "nl",
+    "description_key": "benefit.nl.zorgtoeslag.description",
+    "eligibility_key": "benefit.nl.zorgtoeslag.eligibility",
+    "form_fields": [
+      {
+        "help_key": "",
+        "key": "applicant_full_name",
+        "label_key": "nl.zorgtoeslag.field.full_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "nl.zorgtoeslag.help.bsn",
+        "key": "applicant_bsn",
+        "label_key": "nl.zorgtoeslag.field.bsn",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_dob",
+        "label_key": "nl.zorgtoeslag.field.dob",
+        "required": true,
+        "type": "date"
+      },
+      {
+        "help_key": "",
+        "key": "applicant_address",
+        "label_key": "nl.zorgtoeslag.field.address",
+        "required": true,
+        "type": "address"
+      },
+      {
+        "help_key": "",
+        "key": "partner_present",
+        "label_key": "nl.zorgtoeslag.field.partner_present",
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "help_key": "nl.zorgtoeslag.help.income",
+        "key": "annual_household_income",
+        "label_key": "nl.zorgtoeslag.field.income",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "zorgverzekering_premie_monthly",
+        "label_key": "nl.zorgtoeslag.field.premie",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "nl.zorgtoeslag.help.vermogen",
+        "key": "vermogen_box3",
+        "label_key": "nl.zorgtoeslag.field.vermogen",
+        "required": true,
+        "type": "money"
+      },
+      {
+        "help_key": "",
+        "key": "partner_bsn",
+        "label_key": "nl.zorgtoeslag.field.partner_bsn",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "digid_id",
+        "label_key": "nl.zorgtoeslag.field.digid",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "help_key": "",
+        "key": "bank_iban",
+        "label_key": "nl.zorgtoeslag.field.iban",
+        "required": false,
+        "type": "iban"
+      }
+    ],
+    "key": "nl:zorgtoeslag",
+    "level": "country",
+    "official_url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/hoe-werkt-zorgtoeslag",
+    "one_liner_key": "benefit.nl.zorgtoeslag.one_liner",
+    "regions": [],
+    "related_keys": [],
+    "seo_keywords": [
+      "zorgtoeslag aanvragen",
+      "zorgtoeslag 2026",
+      "zorgtoeslag inkomensgrens",
+      "zorgtoeslag berekenen",
+      "zorgtoeslag toeslagen",
+      "zorgtoeslag belastingdienst"
+    ],
+    "slug": "zorgtoeslag",
+    "title_english": "Health-insurance allowance",
+    "title_native": "Zorgtoeslag"
+  }
+]

@@ -1,0 +1,419 @@
+[
+  {
+    "code": "de",
+    "currency": "EUR",
+    "default_lang": "de",
+    "english_name": "Germany",
+    "flag_emoji": "🇩🇪",
+    "langs": [
+      "de",
+      "en",
+      "tr",
+      "ru",
+      "uk",
+      "ar",
+      "pl"
+    ],
+    "native_name": "Deutschland",
+    "subdomain": "germany"
+  },
+  {
+    "code": "es",
+    "currency": "EUR",
+    "default_lang": "es",
+    "english_name": "Spain",
+    "flag_emoji": "🇪🇸",
+    "langs": [
+      "es",
+      "en",
+      "ca",
+      "ro",
+      "ar"
+    ],
+    "native_name": "España",
+    "subdomain": "spain"
+  },
+  {
+    "code": "fi",
+    "currency": "EUR",
+    "default_lang": "fi",
+    "english_name": "Finland",
+    "flag_emoji": "🇫🇮",
+    "langs": [
+      "fi",
+      "en",
+      "sv",
+      "ru",
+      "ar",
+      "so"
+    ],
+    "native_name": "Suomi",
+    "subdomain": "finland"
+  },
+  {
+    "code": "lt",
+    "currency": "EUR",
+    "default_lang": "lt",
+    "english_name": "Lithuania",
+    "flag_emoji": "🇱🇹",
+    "langs": [
+      "lt",
+      "en",
+      "pl",
+      "ru",
+      "uk"
+    ],
+    "native_name": "Lietuva",
+    "subdomain": "lithuania"
+  },
+  {
+    "code": "fr",
+    "currency": "EUR",
+    "default_lang": "fr",
+    "english_name": "France",
+    "flag_emoji": "🇫🇷",
+    "langs": [
+      "fr",
+      "en",
+      "ar",
+      "pt",
+      "ro"
+    ],
+    "native_name": "France",
+    "subdomain": "france"
+  },
+  {
+    "code": "it",
+    "currency": "EUR",
+    "default_lang": "it",
+    "english_name": "Italy",
+    "flag_emoji": "🇮🇹",
+    "langs": [
+      "it",
+      "en",
+      "ro",
+      "sq",
+      "ar"
+    ],
+    "native_name": "Italia",
+    "subdomain": "italy"
+  },
+  {
+    "code": "nl",
+    "currency": "EUR",
+    "default_lang": "nl",
+    "english_name": "Netherlands",
+    "flag_emoji": "🇳🇱",
+    "langs": [
+      "nl",
+      "en",
+      "tr",
+      "ar",
+      "pl"
+    ],
+    "native_name": "Nederland",
+    "subdomain": "netherlands"
+  },
+  {
+    "code": "pl",
+    "currency": "EUR",
+    "default_lang": "pl",
+    "english_name": "Poland",
+    "flag_emoji": "🇵🇱",
+    "langs": [
+      "pl",
+      "en",
+      "uk",
+      "ru"
+    ],
+    "native_name": "Polska",
+    "subdomain": "poland"
+  },
+  {
+    "code": "ro",
+    "currency": "EUR",
+    "default_lang": "ro",
+    "english_name": "Romania",
+    "flag_emoji": "🇷🇴",
+    "langs": [
+      "ro",
+      "en",
+      "hu",
+      "uk"
+    ],
+    "native_name": "România",
+    "subdomain": "romania"
+  },
+  {
+    "code": "at",
+    "currency": "EUR",
+    "default_lang": "de",
+    "english_name": "Austria",
+    "flag_emoji": "🇦🇹",
+    "langs": [
+      "de",
+      "en",
+      "tr",
+      "sr",
+      "ar",
+      "uk"
+    ],
+    "native_name": "Österreich",
+    "subdomain": "austria"
+  },
+  {
+    "code": "be",
+    "currency": "EUR",
+    "default_lang": "nl",
+    "english_name": "Belgium",
+    "flag_emoji": "🇧🇪",
+    "langs": [
+      "nl",
+      "fr",
+      "de",
+      "en",
+      "it",
+      "ar"
+    ],
+    "native_name": "België / Belgique",
+    "subdomain": "belgium"
+  },
+  {
+    "code": "bg",
+    "currency": "EUR",
+    "default_lang": "bg",
+    "english_name": "Bulgaria",
+    "flag_emoji": "🇧🇬",
+    "langs": [
+      "bg",
+      "en",
+      "tr",
+      "uk",
+      "ru"
+    ],
+    "native_name": "България",
+    "subdomain": "bulgaria"
+  },
+  {
+    "code": "hr",
+    "currency": "EUR",
+    "default_lang": "hr",
+    "english_name": "Croatia",
+    "flag_emoji": "🇭🇷",
+    "langs": [
+      "hr",
+      "en",
+      "sr",
+      "uk"
+    ],
+    "native_name": "Hrvatska",
+    "subdomain": "croatia"
+  },
+  {
+    "code": "cy",
+    "currency": "EUR",
+    "default_lang": "el",
+    "english_name": "Cyprus",
+    "flag_emoji": "🇨🇾",
+    "langs": [
+      "el",
+      "en",
+      "ru",
+      "ar"
+    ],
+    "native_name": "Κύπρος",
+    "subdomain": "cyprus"
+  },
+  {
+    "code": "cz",
+    "currency": "EUR",
+    "default_lang": "cs",
+    "english_name": "Czechia",
+    "flag_emoji": "🇨🇿",
+    "langs": [
+      "cs",
+      "en",
+      "uk"
+    ],
+    "native_name": "Česko",
+    "subdomain": "czechia"
+  },
+  {
+    "code": "dk",
+    "currency": "EUR",
+    "default_lang": "da",
+    "english_name": "Denmark",
+    "flag_emoji": "🇩🇰",
+    "langs": [
+      "da",
+      "en",
+      "ar",
+      "tr",
+      "uk"
+    ],
+    "native_name": "Danmark",
+    "subdomain": "denmark"
+  },
+  {
+    "code": "ee",
+    "currency": "EUR",
+    "default_lang": "et",
+    "english_name": "Estonia",
+    "flag_emoji": "🇪🇪",
+    "langs": [
+      "et",
+      "en",
+      "ru",
+      "uk"
+    ],
+    "native_name": "Eesti",
+    "subdomain": "estonia"
+  },
+  {
+    "code": "gr",
+    "currency": "EUR",
+    "default_lang": "el",
+    "english_name": "Greece",
+    "flag_emoji": "🇬🇷",
+    "langs": [
+      "el",
+      "en",
+      "sq",
+      "ar"
+    ],
+    "native_name": "Ελλάδα",
+    "subdomain": "greece"
+  },
+  {
+    "code": "hu",
+    "currency": "EUR",
+    "default_lang": "hu",
+    "english_name": "Hungary",
+    "flag_emoji": "🇭🇺",
+    "langs": [
+      "hu",
+      "en",
+      "uk",
+      "ro"
+    ],
+    "native_name": "Magyarország",
+    "subdomain": "hungary"
+  },
+  {
+    "code": "ie",
+    "currency": "EUR",
+    "default_lang": "en",
+    "english_name": "Ireland",
+    "flag_emoji": "🇮🇪",
+    "langs": [
+      "en",
+      "pl",
+      "ro",
+      "uk"
+    ],
+    "native_name": "Éire",
+    "subdomain": "ireland"
+  },
+  {
+    "code": "lv",
+    "currency": "EUR",
+    "default_lang": "lv",
+    "english_name": "Latvia",
+    "flag_emoji": "🇱🇻",
+    "langs": [
+      "lv",
+      "en",
+      "ru",
+      "uk"
+    ],
+    "native_name": "Latvija",
+    "subdomain": "latvia"
+  },
+  {
+    "code": "lu",
+    "currency": "EUR",
+    "default_lang": "fr",
+    "english_name": "Luxembourg",
+    "flag_emoji": "🇱🇺",
+    "langs": [
+      "fr",
+      "de",
+      "pt",
+      "en"
+    ],
+    "native_name": "Lëtzebuerg",
+    "subdomain": "luxembourg"
+  },
+  {
+    "code": "mt",
+    "currency": "EUR",
+    "default_lang": "en",
+    "english_name": "Malta",
+    "flag_emoji": "🇲🇹",
+    "langs": [
+      "en"
+    ],
+    "native_name": "Malta",
+    "subdomain": "malta"
+  },
+  {
+    "code": "pt",
+    "currency": "EUR",
+    "default_lang": "pt",
+    "english_name": "Portugal",
+    "flag_emoji": "🇵🇹",
+    "langs": [
+      "pt",
+      "en",
+      "uk"
+    ],
+    "native_name": "Portugal",
+    "subdomain": "portugal"
+  },
+  {
+    "code": "sk",
+    "currency": "EUR",
+    "default_lang": "sk",
+    "english_name": "Slovakia",
+    "flag_emoji": "🇸🇰",
+    "langs": [
+      "sk",
+      "en",
+      "hu",
+      "uk"
+    ],
+    "native_name": "Slovensko",
+    "subdomain": "slovakia"
+  },
+  {
+    "code": "si",
+    "currency": "EUR",
+    "default_lang": "sl",
+    "english_name": "Slovenia",
+    "flag_emoji": "🇸🇮",
+    "langs": [
+      "sl",
+      "en",
+      "sr",
+      "uk"
+    ],
+    "native_name": "Slovenija",
+    "subdomain": "slovenia"
+  },
+  {
+    "code": "se",
+    "currency": "EUR",
+    "default_lang": "sv",
+    "english_name": "Sweden",
+    "flag_emoji": "🇸🇪",
+    "langs": [
+      "sv",
+      "en",
+      "ar",
+      "so",
+      "uk"
+    ],
+    "native_name": "Sverige",
+    "subdomain": "sweden"
+  }
+]
