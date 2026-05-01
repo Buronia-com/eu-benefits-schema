@@ -112,11 +112,11 @@ Each entry:
 }
 ```
 
-The translated content for the `*_key` fields lives in the **[eu-benefits-i18n](https://github.com/buronia/eu-benefits-i18n)** companion repository — 28 languages, 382 translation files.
+The translated content for the `*_key` fields lives in the **[eu-benefits-i18n](https://github.com/Buronia-com/eu-benefits-i18n)** companion repository — 27 languages, 243 translation files.
 
 ## Companion datasets
 
-- **[eu-benefits-i18n](https://github.com/buronia/eu-benefits-i18n)** — multilingual translations for every benefit in this dataset. Same release cadence.
+- **[eu-benefits-i18n](https://github.com/Buronia-com/eu-benefits-i18n)** — multilingual translations for every benefit in this dataset. Same release cadence.
 
 ## Live examples
 
